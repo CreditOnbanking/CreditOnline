@@ -30,3 +30,51 @@ body h1, h2, h3, h4, h5, p, a, span {
 .grid-cell.grow0{-webkit-flex-grow:0;-moz-flex-grow:0;flex-grow:0;-ms-flex-grow:0;}
 .grid-cell.grow2{-webkit-flex-grow:2;-moz-flex-grow:2;flex-grow:2;-ms-flex-grow:2;}
 .grid-cell.grow3{-webkit-flex-grow:3;-moz-flex-grow:3;flex-grow:3;-ms-flex-grow:3;}
+ 
+
+ ul li {
+ 	list-style:none;
+ 		/*Navbar Styling Start */
+ }
+.nav-header {
+	padding-top:15px;
+}		
+.header-top-right input {
+	float:right;
+	
+	min-width:75px;
+}
+.margin-left{
+	margin-left:10px;
+}
+		/* Navbar Styling End */
+
+		/* section-1 styling start */
+
+.section-1 {
+}
+#landingContent {
+	padding-top:90px;
+}
+.login-block {
+	border-radius:10px;
+	padding:15px;
+	display:block;
+	float:right;
+	background:#2441FF;
+	
+
+}
+.login-block input{
+	padding:7px 10px;
+	margin-bottom: 10px;
+	min-width:250px;
+	display: block;
+}
+.login-block input:nth-child(-n+2){
+	border-radius: 10px;
+    border: none;  
+}
+.login-block label{
+	color:#fff;
+}
