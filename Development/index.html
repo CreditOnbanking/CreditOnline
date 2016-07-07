@@ -10,7 +10,10 @@
     <!-- Bootstrap -->
     <link href="resources/css/bootstrap.min.css" rel="stylesheet">
     <link href="resources/css/main.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="resources/css/default.css" />
+    <link rel="stylesheet" type="text/css" href="resources/css/component.css" />
     <link href="https://fonts.googleapis.com/css?family=Titillium+Web:300,400,600,700" rel="stylesheet">
+    <script src="resources/js/modernizr.custom.js"></script>
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -21,103 +24,106 @@
 
 <body>
     <header>
-        <nav class="navbar navbar-default navbar-fixed-top">
-            <div class="container-fluid nav-header">
-                <!-- Brand and toggle get grouped for better mobile display -->
-                
-                  <div class="row">
-                     <div class="col-md-2">
-                        <div class="navbar-header">
-                           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                              <span class="sr-only">Toggle navigation</span>
-                              <span class="icon-bar"></span>
-                              <span class="icon-bar"></span>
-                              <span class="icon-bar"></span>
-                           </button>
-                           <a class="navbar-brand" href="#">Logo</a>
-                        </div>
-                     </div>
-                     <div class="col-md-8">
-                        <div class="btn-group margin-left">
-                           <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Վարկեր <span class="caret"></span>
-                           </button>
-                           <ul class="dropdown-menu">
-                             <li><a href="#">Սպառողական վարկ</a></li>
-                             <li><a href="#">Ավտովարկ</a></li>
-                             <li><a href="#">Հիփոթեքային վարկ (անշարրժ գույքի գնման)</a></li>
-                             <li><a href="#">Հիփոթեքային վարկ (անշարժ գույքի վերանորոգման)</a></li>
-                             <li><a href="#">Վարկային քարտեր </a></li>
-                           </ul>
-                        </div>
-                        <div class="btn-group margin-left">
-                           <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Ավանդներ<span class="caret"></span>
-                           </button>
-                           <ul class="dropdown-menu">
-                             <li><a href="#">Action</a></li>
-                             <li><a href="#">Another action</a></li>
-                             <li><a href="#">Something else here</a></li>
-                             
-                             <li><a href="#">Separated link</a></li>
-                           </ul>
-                        </div>
-                        <div class="btn-group margin-left">
-                            <button class="btn btn-default" type="submit">Քարտեր</button>
-                        </div>
-                        <div class="btn-group margin-left">
-                           <button class="btn btn-default" type="submit">Պահատուփեր</button>
-                        </div>
-                        <div class="btn-group margin-left">
-                           <button class="btn btn-default" type="submit">Մեր Մասին</button>
-                        </div>
-                        <div class="btn-group margin-left">
-                           <button class="btn btn-default" type="submit">Հետադարձ Կապ</button>
-                        </div>
-                      </div>
-                     <div class="col-md-2 header-top-right">
-                        <input class="btn btn-default" type="button" value="Մուտք">
-                        <input class="btn btn-default" type="button" value="Գրանցվել">
-                      </div>
-                  </div>
-                <!-- Collect the nav links, forms, and other content for toggling -->
-                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                   
+        <div class="main">
+            <nav class="cbp-hsmenu-wrapper" id="cbp-hsmenu-wrapper">
+                <div class="cbp-hsinner">
+                    <div class="logoSection">
+                       <h1 style="margin: 0; "><img src="resources/images/logo.png" alt=""></h1> 
+                    </div>
+                    <ul class="cbp-hsmenu">
+                        <li>
+                            <a href="#">Lovely Spirits</a>
+                            <ul class="cbp-hssubmenu">
+                                <li>
+                                    <a href="#"><img src="images/1.png" alt="img01" /><span>Delicate Wine</span></a>
+                                </li>
+                                <li>
+                                    <a href="#"><img src="images/2.png" alt="img02" /><span>Fine Spirit</span></a>
+                                </li>
+                                <li>
+                                    <a href="#"><img src="images/3.png" alt="img03" /><span>Heavenly Ale</span></a>
+                                </li>
+                                <li>
+                                    <a href="#"><img src="images/4.png" alt="img04" /><span>Juicy Lemonade</span></a>
+                                </li>
+                                <li>
+                                    <a href="#"><img src="images/5.png" alt="img05" /><span>Wise Whiskey</span></a>
+                                </li>
+                                <li>
+                                    <a href="#"><img src="images/6.png" alt="img06" /><span>Sweet Rum</span></a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">Delicious Beverages</a>
+                            <ul class="cbp-hssubmenu cbp-hssub-rows">
+                                <li>
+                                    <a href="#"><img src="images/7.png" alt="img07" /><span>Lovely Slurp</span></a>
+                                </li>
+                                <li>
+                                    <a href="#"><img src="images/8.png" alt="img08" /><span>Lemony Grappa</span></a>
+                                </li>
+                                <li>
+                                    <a href="#"><img src="images/9.png" alt="img09" /><span>Eggy Liquor</span></a>
+                                </li>
+                                <li>
+                                    <a href="#"><img src="images/10.png" alt="img10" /><span>Fresh Juice</span></a>
+                                </li>
+                                <li>
+                                    <a href="#"><img src="images/1.png" alt="img01" /><span>Delicate Wine</span></a>
+                                </li>
+                                <li>
+                                    <a href="#"><img src="images/2.png" alt="img02" /><span>Fine Spirit</span></a>
+                                </li>
+                                <li>
+                                    <a href="#"><img src="images/3.png" alt="img03" /><span>Heavenly Ale</span></a>
+                                </li>
+                                <li>
+                                    <a href="#"><img src="images/4.png" alt="img04" /><span>Juicy Lemonade</span></a>
+                                </li>
+                                <li>
+                                    <a href="#"><img src="images/5.png" alt="img05" /><span>Wise Whiskey</span></a>
+                                </li>
+                                <li>
+                                    <a href="#"><img src="images/6.png" alt="img06" /><span>Sweet Rum</span></a>
+                                </li>
+                                <li>
+                                    <a href="#"><img src="images/1.png" alt="img01" /><span>Delicate Wine</span></a>
+                                </li>
+                                <li>
+                                    <a href="#"><img src="images/2.png" alt="img02" /><span>Fine Spirit</span></a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">Fine Liquors</a>
+                            <ul class="cbp-hssubmenu">
+                                <li>
+                                    <a href="#"><img src="images/10.png" alt="img10" /><span>Fresh Juice</span></a>
+                                </li>
+                                <li>
+                                    <a href="#"><img src="images/6.png" alt="img06" /><span>Sweet Rum</span></a>
+                                </li>
+                                <li>
+                                    <a href="#"><img src="images/9.png" alt="img09" /><span>Eggy Liquor</span></a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Our Mission</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
                 </div>
-                <!-- /.navbar-collapse -->
-            </div>
-            <!-- /.container-fluid -->
-        </nav>
-    </header>
-    <section id="landingContent">
-        <div class="container">
-            <div class="row clearfix  section-1">
-               <div class="login-block">
-                  <form action="url">
-                     
-                        <input type="text" placeholder="Login" >
-                        <input type="password" placeholder="password">
-                        <div><label><input type="checkbox" value="">Հիշել Գաղտնաբառը</label></div>
-                        <input class="btn btn-default" type="submit" value="Մուտք">
-                        <input type="submit" class="btn btn-default" value="Գրանցվել">
-                     </form>
-
-               </div>
-                <!-- <div class="col-xs-4">
-                    <h1>Հարգելի Հաճախորդ,
-Մեր կայքի նպատակն է` հնարավորություն ընձեռել Ձեզ` գտնելու անհրաժեշտ ֆինանսական ծառայությունները` Ձեր իսկ նախընտրելի պայմաններով: </h1>
-                </div>
-                <div class="col-xs-4">
-                    
-                </div>
-                <div class="col-xs-4">
-                    <p>Ձեր ներկայացրած հայտերը հասանելի կլինեն մի շարք բանկերի և վարկային կազմակերպությունների համար: Այն ֆինանսական կազմակերպությունները, որոնք պատրաստ կլինեն առաջարկել Ձեր կողմից պահանջվող ծառայությունը` Ձեր իսկ նախընտրելի պայմաններով, կվերցնեն Ձեր հայտը և հանդես կգան նշված ծառայությունը Ձեզ մատուցելու առաջարկով: Մեր միջոցով Դուք կգտնեք Ձեր ամենահարմար ֆինանսական գործընկերոջը:</p>
-                </div> -->
-            </div>
+            </nav>
         </div>
-    </section>
+    </header>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="resources/js/bootstrap.min.js"></script>
+    <script src="resources/js/cbpHorizontalSlideOutMenu.min.js"></script>
+    <script>
+    var menu = new cbpHorizontalSlideOutMenu(document.getElementById('cbp-hsmenu-wrapper'));
+    </script>
 </body>
 
 </html>
