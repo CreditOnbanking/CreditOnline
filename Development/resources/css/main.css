@@ -26,6 +26,7 @@ body h1, h2, h3, h4, h5, p, a, span {
 .grid-cell.double-size {-webkit-flex-grow:2;-moz-flex-grow:2;flex-grow:2;-ms-flex-grow:2;}
 .grid-cell.noflex {-webkit-box-flex:0 0 auto;-moz-box-flex:0 0 auto;-webkit-flex:0 0 auto;-ms-flex:0 0 auto;flex:0 0 auto;}
 .grid-cell.center {-webkit-align-self:center;-align-self:center;-moz-align-self:center;-ms-align-self:center;text-align:center;}
+.grid-cell.center-nonText {-webkit-align-self:center;-align-self:center;-moz-align-self:center;-ms-align-self:center;}
 .grid-cell.end {-webkit-align-self:flex-end;-align-self:flex-end;-moz-align-self:flex-end;-ms-align-self:flex-end;}
 .grid-cell.grow0{-webkit-flex-grow:0;-moz-flex-grow:0;flex-grow:0;-ms-flex-grow:0;}
 .grid-cell.grow2{-webkit-flex-grow:2;-moz-flex-grow:2;flex-grow:2;-ms-flex-grow:2;}
@@ -35,9 +36,9 @@ body h1, h2, h3, h4, h5, p, a, span {
 
 .logoSection h1 {
 	margin: 0;
-	float: left;
 }
 .logoSection h1 img {
-	max-width: 50px;
+	max-width: 100px;
 	margin: 5px 0 0 5px;
 }
+

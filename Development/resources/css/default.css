@@ -32,8 +32,12 @@ a {
 
 a:hover {
 	color: #000;
+	text-decoration: none;
 }
-
+a:focus {
+	color: #000;
+	outline: none;
+}
 .container > header {
 	width: 90%;
 	max-width: 69em;
