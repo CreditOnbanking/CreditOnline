@@ -37,7 +37,7 @@
 }
 
 .cbp-hsmenu > li {
-	margin-left: 4em;
+	margin-left: 2em;
 	display: inline-block;
 }
 
@@ -55,13 +55,30 @@
 	z-index: 10000;
 	outline: none;
 }
-
+.registrationBox a {
+	color: #fff;
+	font-size: 1.2em;
+	line-height: 3em;
+	display: inline-block;
+	position: relative;
+	z-index: 10000;
+	outline: none;	
+}
+.registrationBox div div:first-child a {
+	background-color: #e34b55;
+	padding: 0px 15px;
+}
+.registrationBox div div:last-child a {
+	background-color: #2e92b3;
+	padding: 0px 15px;
+}
 .no-touch .cbp-hsmenu > li > a:hover,
 .no-touch .cbp-hsmenu > li > a:focus,
 .cbp-hsmenu > li.cbp-hsitem-open > a {
-	color: #02639d;
+	color: #fff;
+	text-decoration: none;
+	outline: none;
 }
-
 /* Add an arrow to the main menu link if it has a submenu (not the only child) */
 .cbp-hsmenu > li > a:not(:only-child):before {
 	display: inline-block;
@@ -176,6 +193,11 @@
 }
 
 .cbp-hssubmenu > li a span {
+	display: block;
+	min-height: 3em;
+	margin-top: 0.4em;
+}
+.cbp-hssubmenu > li a i {
 	display: block;
 	min-height: 3em;
 	margin-top: 0.4em;
