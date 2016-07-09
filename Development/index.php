@@ -56,14 +56,14 @@
                     </ul>
                     <div class="registrationBox grid-cell end">
                         <div class="grid">
-                            <div class="grid-cell" style="margin-right: 10px;"><a href="" data-toggle="modal" data-target="#register">Գրանցվել</a></div>
-                            <div class="grid-cell"><a href="" data-toggle="modal" data-target="#logIn">Մուտք</a></div>
+                            <div class="grid-cell" style="margin-right: 10px;"><a href="form/signup.php">Գրանցվել</a></div>
+                            <div class="grid-cell"><a href="form/index.php">Մուտք</a></div>
                         </div>
                     </div>
                 </div>
             </nav>
         </div>
-        <div class="modal fade" id="register" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <!-- <div class="modal fade" id="register" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
           <div class="modal-dialog modal-lg" role="document">
             <div class="modal-content">
               <div class="modal-header">
@@ -135,7 +135,7 @@
               </div>
             </div>
           </div>
-        </div>
+        </div> -->
     </header>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
