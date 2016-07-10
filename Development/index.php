@@ -29,7 +29,20 @@
         <div class="main">
             <nav class="cbp-hsmenu-wrapper" id="cbp-hsmenu-wrapper">
                 <div class="cbp-hsinner grid center">
-                    <div class="logoSection grid-cell">
+                    <div class="grid-cell logoSection visible-xs-nav" style="width: 100%;">
+                        <div class="grid">
+                            <div class="grid-cell">
+                                <h1 style="margin: 0; "><img src="resources/images/logo.png" alt=""></h1>  
+                            </div>
+                            <div class="grid-cell noflex registrationBox">
+                                <div class="grid">
+                                   <div class="grid-cell" style="margin-right: 10px; text-align: right;"><a href="form/signup.php">Գրանցվել</a></div>
+                                <div class="grid-cell"><a href="form/index.php">Մուտք</a></div> 
+                                </div>
+                            </div>  
+                        </div>
+                    </div>
+                    <div class="logoSection grid-cell hidden-xs-nav">
                        <h1 style="margin: 0; "><img src="resources/images/logo.png" alt=""></h1> 
                     </div>
                     <ul class="cbp-hsmenu grid-cell center-nonText">
@@ -54,9 +67,9 @@
                         <li><a href="#">Մեր Մասին</a></li>
                         <li><a href="#">Հետադարձ Կապ</a></li>
                     </ul>
-                    <div class="registrationBox grid-cell end">
+                    <div class="registrationBox hidden-xs-nav grid-cell end">
                         <div class="grid">
-                            <div class="grid-cell" style="margin-right: 10px;"><a href="form/signup.php">Գրանցվել</a></div>
+                            <div class="grid-cell" style="margin-right: 10px; text-align: right;"><a href="form/signup.php">Գրանցվել</a></div>
                             <div class="grid-cell"><a href="form/index.php">Մուտք</a></div>
                         </div>
                     </div>

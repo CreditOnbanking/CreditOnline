@@ -33,7 +33,10 @@ body h1, h2, h3, h4, h5, p, a, span {
 .grid-cell.grow3{-webkit-flex-grow:3;-moz-flex-grow:3;flex-grow:3;-ms-flex-grow:3;}
 
 /** Nav Menu **/
-
+.main {
+	position: fixed;
+	width: 100%;
+}
 .logoSection h1 {
 	margin: 0;
 }
@@ -62,4 +65,55 @@ body h1, h2, h3, h4, h5, p, a, span {
 }
 .modal-footer a:focus, .modal-footer a:hover {
 	color: #10689a;
+}
+.visible-xs-nav {
+	display: none;
+}
+
+
+/* Smartphones (landscape) ----------- */
+@media only screen and (min-width : 321px) {
+/* Styles */
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen and (max-width : 320px) {
+/* Styles */
+}
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+/* Styles */
+}
+
+/* iPads (portrait) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+/* Styles */
+}
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) and (-webkit-min-device-pixel-ratio : 2) {
+/* Styles */
+}
+
+@media only screen and (max-device-width : 824px){
+	.hidden-xs-nav {
+		display: none;
+	}
+	.visible-xs-nav {
+		display: block !important;
+	}
+	.cbp-hsinner {
+		-webkit-box-orient: vertical;-moz-box-orient: vertical;-webkit-flex-direction:column;-moz-flex-direction:column; -o-flex-direction:column; -ms-flex-direction:column; flex-direction:column;
+	}
+}
+@media all and (max-width: 858px) and (min-width: 824px) {
+	.cbp-hsmenu-wrapper .cbp-hsmenu {
+		padding: 0px 1.2em !important;
+	}
+	.cbp-hsmenu > li {
+		margin-left: 1em !important;
+	}
+	.hidden-xs-nav
+}
+
+/* Desktops and laptops ----------- */
+@media only screen  and (min-width : 1224px) {
+/* Styles */
 }
