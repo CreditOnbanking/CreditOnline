@@ -49,23 +49,43 @@ body h1, h2, h3, h4, h5, p, a, span {
 	background-size:cover;
 	background-position:center center;
 	width:100%;
-	min-height:700px; 
-	
+	min-height:700px; 	
 }
+.mainTatle {
+	max-width:60%;
+}
+
 .bgShadow {
 	background-color:rgba(33, 33, 33, 0.28);
 	width:100%;
 	min-height:700px;
 }
-.headInfo h1 {
+.mainTatle h1 {
 	color: #fff;
-    font-size: 44px;
-    margin-top: 158px;
+    font-size: 2.5em;
+    margin-top: 75px;
+    line-height:2em;
 }
-.mainText{width:100%;}
-.mainText p {
+.mainTatle p {
+	font-size: 25px;
+    color: #fff;
+    border-top: 3px solid #fff;
+    border-bottom: 3px solid #fff;
+    padding: 50px 0;
+}
+.mainTatle a {
+	margin-top:50px;
+	max-width:100%;
+	background-color:rgba(46, 146, 179, 0.9);
+    padding: 0px 40px;
+    font-size: 1.2em;
+    line-height: 3em;
+    display: inline-block;
+}
+.mainTatle a:hover {
 	color:#fff;
-	font-size: 2em;
+	background-color:rgba(36, 55, 70, 0.9);
+	transition: .8s ease;
 
 }
 /* -----------------section1 end--------------- */
