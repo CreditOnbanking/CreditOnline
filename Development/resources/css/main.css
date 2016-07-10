@@ -159,3 +159,17 @@ body h1, h2, h3, h4, h5, p, a, span {
 	min-height:700px;
 }
 /* ---------------section3 end ---------------*/
+/*----------------footer start ---------------*/
+.footer {
+	background-color:#243746;
+	width:100%;
+	min-height:500px;
+
+}
+.footCollumn {
+	width: 100%;
+	margin-right: 10px;
+}
+.footCollumn a{
+	display: block;
+}
