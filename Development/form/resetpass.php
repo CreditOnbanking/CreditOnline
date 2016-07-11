@@ -27,7 +27,7 @@ if(isset($_GET['id']) && isset($_GET['code']))
 			{
 				$msg = "<div class='alert alert-block'>
 						<button class='close' data-dismiss='alert'>&times;</button>
-						<strong>Sorry!</strong>  Password Doesn't match. 
+						<strong>Ներեցեք!</strong>  Գաղտնաբառը չի համընկնում. 
 						</div>";
 			}
 			else
@@ -38,7 +38,7 @@ if(isset($_GET['id']) && isset($_GET['code']))
 				
 				$msg = "<div class='alert alert-success'>
 						<button class='close' data-dismiss='alert'>&times;</button>
-						Password Changed.
+						Գաղտնաբառը փոխվեց.
 						</div>";
 				header("refresh:5;index.php");
 			}
@@ -48,7 +48,7 @@ if(isset($_GET['id']) && isset($_GET['code']))
 	{
 		$msg = "<div class='alert alert-success'>
 				<button class='close' data-dismiss='alert'>&times;</button>
-				No Account Found, Try again
+				Սխալ տվյալներ, փորձեք նորից
 				</div>";
 				
 	}
@@ -57,41 +57,30 @@ if(isset($_GET['id']) && isset($_GET['code']))
 }
 
 ?>
-<!DOCTYPE html>
-<html>
-  <head>
-    <title>Password Reset</title>
-    <!-- Bootstrap -->
-    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
-    <link href="bootstrap/css/bootstrap-responsive.min.css" rel="stylesheet" media="screen">
-    <link href="assets/styles.css" rel="stylesheet" media="screen">
-     <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
-    <!--[if lt IE 9]>
-      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-  </head>
-  <body id="login">
+<?php 
+$page_title = "Home – My Website";
+$page_description = "Description of this page";
+$id = "id='signup'"
+?>
+<?php include("../include/header.php"); ?>
     <div class="container">
     	<div class='alert alert-success'>
 			<strong>Hello !</strong>  <?php echo $rows['userName'] ?> you are here to reset your forgetton password.
 		</div>
         <form class="form-signin" method="post">
-        <h3 class="form-signin-heading">Password Reset.</h3><hr />
+        <h3 class="form-signin-heading">Փոխել Գաղտնաբառը.</h3><hr />
         <?php
         if(isset($msg))
 		{
 			echo $msg;
 		}
 		?>
-        <input type="password" class="input-block-level" placeholder="New Password" name="pass" required />
-        <input type="password" class="input-block-level" placeholder="Confirm New Password" name="confirm-pass" required />
+        <input type="password" class="input-block-level" placeholder="Նոր Գաղտնաբառ" name="pass" required />
+        <input type="password" class="input-block-level" placeholder="Հաստատել Նոր Գաղտնաբառը" name="confirm-pass" required />
      	<hr />
-        <button class="btn btn-large btn-primary" type="submit" name="btn-reset-pass">Reset Your Password</button>
+        <button class="btn btn-large btn-primary" type="submit" name="btn-reset-pass">Փոխել Գաղտնաբառը</button>
         
       </form>
 
     </div> <!-- /container -->
-    <script src="bootstrap/js/jquery-1.9.1.min.js"></script>
-    <script src="bootstrap/js/bootstrap.min.js"></script>
-  </body>
-</html>
+ <?php include("../include/footer-user.php"); ?>

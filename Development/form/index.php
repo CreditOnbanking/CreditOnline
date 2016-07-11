@@ -19,22 +19,52 @@ if(isset($_POST['btn-login']))
 	}
 }
 ?>
+<?php 
+$page_title = "Home – My Website";
+$page_description = "Description of this page";
+$id = "id='login'"
+?>
+<?php include("../include/header.php"); ?>
+<style type="text/css">
+  body {
+    background-image: url('../resources/images/signup-bg.jpg'); 
+    background-size: cover; 
+    background-position: center center; 
+    background-repeat: no-repeat; 
+    width: 100%; 
+    min-height: 100vh;
+  }
+  .container {
+    max-width: 400px;
+  }
+  .form-signin-heading {
+    color: #fff;
+  }
+  input {
+    height: 45px !important;
+      border-radius: 0px !important;
+      background: rgb(230, 234, 244) !important;
+      border-width: 5px !important;
+      border-color: #b6bbba !important;
+  }
+  input:focus {
+    outline: none !important;
+    box-shadow: none !important;
+  }
+  input:focus:invalid, textarea:focus:invalid, select:focus:invalid {
+    border-color: rgba(255, 0, 0, 0.61) !important;
+  }
+  input:focus:invalid:focus, textarea:focus:invalid:focus, select:focus:invalid:focus {
+    border-color: rgba(255, 0, 0, 0.61) !important;
+  }
+  .btn {
+    border: none !important;
+    border-radius: 0 !important;
+    box-shadow: none !important;
+  }
+</style>
 
-<!DOCTYPE html>
-<html>
-  <head>
-    <title>Login | Coding Cage</title>
-    <!-- Bootstrap -->
-    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
-    <link href="bootstrap/css/bootstrap-responsive.min.css" rel="stylesheet" media="screen">
-    <link href="assets/styles.css" rel="stylesheet" media="screen">
-     <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
-    <!--[if lt IE 9]>
-      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-    <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
-  </head>
-  <body id="login">
+ <!--  <body id="login"> -->
     <div class="container">
 		<?php 
 		if(isset($_GET['inactive']))
@@ -42,7 +72,7 @@ if(isset($_POST['btn-login']))
 			?>
             <div class='alert alert-error'>
 				<button class='close' data-dismiss='alert'>&times;</button>
-				<strong>Sorry!</strong> This Account is not Activated Go to your Inbox and Activate it. 
+				<strong>Ներեցեք!</strong> Ձեր էթջը ակտիվացրած չէ: Ակտիվացրեք այն գրանցված Էլ. հասցեից: 
 			</div>
             <?php
 		}
@@ -54,22 +84,19 @@ if(isset($_POST['btn-login']))
 			?>
             <div class='alert alert-success'>
 				<button class='close' data-dismiss='alert'>&times;</button>
-				<strong>Wrong Details!</strong> 
+				<strong>Սխալ տվյալներ!</strong> 
 			</div>
             <?php
 		}
 		?>
-        <h2 class="form-signin-heading">Sign In.</h2><hr />
-        <input type="email" class="input-block-level" placeholder="Email address" name="txtemail" required />
-        <input type="password" class="input-block-level" placeholder="Password" name="txtupass" required />
+        <h2 class="form-signin-heading">Մուտք գործել</h2><hr />
+        <input type="email" class="input-block-level" placeholder="Էլ. Հասցե" name="txtemail" required />
+        <input type="password" class="input-block-level" placeholder="Գաղտնաբառ" name="txtupass" required />
      	<hr />
-        <button class="btn btn-large btn-primary" type="submit" name="btn-login">Sign in</button>
-        <a href="signup.php" style="float:right;" class="btn btn-large">Sign Up</a><hr />
-        <a href="fpass.php">Lost your Password ? </a>
+        <button class="btn btn-large btn-primary" type="submit" name="btn-login">Մուտք գործել</button>
+        <a href="signup.php" style="float:right;" class="btn btn-large">Գրանցվել</a><hr />
+        <a href="fpass.php">Մոռացել եք գաղտնաբառը ? </a>
       </form>
 
     </div> <!-- /container -->
-    <script src="bootstrap/js/jquery-1.9.1.min.js"></script>
-    <script src="bootstrap/js/bootstrap.min.js"></script>
-  </body>
-</html>
+<?php include("../include/footer-user.php"); ?>

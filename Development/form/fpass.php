@@ -26,13 +26,13 @@ if(isset($_POST['btn-submit']))
 		$message= "
 				   Hello , $email
 				   <br /><br />
-				   We got requested to reset your password, if you do this then just click the following link to reset your password, if not just ignore                   this email,
+				   Մենք ստացել ենք գաղտնաբառը փոխելու հրահանգ, եթե դուք պետքե փոխեք այն սեղմեք հետևյալ հղիչը, եթե դուք տեղյակ չեք այս նամակի մասին ուղղակի ջնջեք այն,
 				   <br /><br />
-				   Click Following Link To Reset Your Password 
+				   սեղմեք հետևյալ հղիչը որպեսզի փոխեք գաղտնաբառը 
 				   <br /><br />
-				   <a href='http://localhost/x/resetpass.php?id=$id&code=$code'>click here to reset your password</a>
+				   <a href='http://localhost/x/resetpass.php?id=$id&code=$code'>Սեղմեք աըստեղ որպեսզի փոխեք գաղտնաբառը</a>
 				   <br /><br />
-				   thank you :)
+				   շնորհակալություն :)
 				   ";
 		$subject = "Password Reset";
 		
@@ -40,38 +40,68 @@ if(isset($_POST['btn-submit']))
 		
 		$msg = "<div class='alert alert-success'>
 					<button class='close' data-dismiss='alert'>&times;</button>
-					We've sent an email to $email.
-                    Please click on the password reset link in the email to generate new password. 
+					Մենք ուղարկել ենք նամակ այս $email հասցեին.
+                    սեղմեք փոխել գաղտնաբառը հղիչը: 
 			  	</div>";
 	}
 	else
 	{
 		$msg = "<div class='alert alert-danger'>
 					<button class='close' data-dismiss='alert'>&times;</button>
-					<strong>Sorry!</strong>  this email not found. 
+					<strong>Ներեցեք!</strong>  Էլ. հասցեն անհայտ է: 
 			    </div>";
 	}
 }
 ?>
 
-<!DOCTYPE html>
-<html>
-  <head>
-    <title>Forgot Password</title>
-    <!-- Bootstrap -->
-    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
-    <link href="bootstrap/css/bootstrap-responsive.min.css" rel="stylesheet" media="screen">
-    <link href="assets/styles.css" rel="stylesheet" media="screen">
-     <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
-    <!--[if lt IE 9]>
-      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-  </head>
-  <body id="login">
+<?php 
+$page_title = "Home – My Website";
+$page_description = "Description of this page";
+$id = "id='login'"
+?>
+<?php include("../include/header.php"); ?>
+<style type="text/css">
+  body {
+    background-image: url('../resources/images/signup-bg.jpg'); 
+    background-size: cover; 
+    background-position: center center; 
+    background-repeat: no-repeat; 
+    width: 100%; 
+    min-height: 100vh;
+  }
+  .container {
+    max-width: 400px;
+  }
+  .form-signin-heading {
+    color: #fff;
+  }
+  input {
+    height: 45px !important;
+      border-radius: 0px !important;
+      background: rgb(230, 234, 244) !important;
+      border-width: 5px !important;
+      border-color: #b6bbba !important;
+  }
+  input:focus {
+    outline: none !important;
+    box-shadow: none !important;
+  }
+  input:focus:invalid, textarea:focus:invalid, select:focus:invalid {
+    border-color: rgba(255, 0, 0, 0.61) !important;
+  }
+  input:focus:invalid:focus, textarea:focus:invalid:focus, select:focus:invalid:focus {
+    border-color: rgba(255, 0, 0, 0.61) !important;
+  }
+  .btn {
+    border: none !important;
+    border-radius: 0 !important;
+    box-shadow: none !important;
+  }
+</style>
     <div class="container">
 
       <form class="form-signin" method="post">
-        <h2 class="form-signin-heading">Forgot Password</h2><hr />
+        <h2 class="form-signin-heading">Վերականգնել Գաղտնաբառը</h2><hr />
         
         	<?php
 			if(isset($msg))
@@ -82,19 +112,16 @@ if(isset($_POST['btn-submit']))
 			{
 				?>
               	<div class='alert alert-info'>
-				Please enter your email address. You will receive a link to create a new password via email.!
+				Մուտքագրեք ձեր էլ. հասցեն: Դուք կստանաք գաղտնաբառը փոխելու նամակ !
 				</div>  
                 <?php
 			}
 			?>
         
-        <input type="email" class="input-block-level" placeholder="Email address" name="txtemail" required />
+        <input type="email" class="input-block-level" placeholder="Էլ. Հասցե" name="txtemail" required />
      	<hr />
-        <button class="btn btn-danger btn-primary" type="submit" name="btn-submit">Generate new Password</button>
+        <button class="btn btn-danger btn-primary" type="submit" name="btn-submit">Ստանալ նոր գաղտնաբառ</button>
       </form>
 
     </div> <!-- /container -->
-    <script src="bootstrap/js/jquery-1.9.1.min.js"></script>
-    <script src="bootstrap/js/bootstrap.min.js"></script>
-  </body>
-</html>
+    <?php include("../include/footer-user.php"); ?>
