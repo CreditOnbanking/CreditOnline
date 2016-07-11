@@ -1,7 +1,7 @@
 body h1, h2, h3, h4, h5, p, a, span {
 	font-family: 'Lato', sans-serif;
 	color: #444;
-}s
+}
 .section{height: 100%;overflow: hidden;min-height: 600px;}
 .section{height: 100%;overflow: hidden;min-height: 600px;}
 .grid { display: -webkit-box;display: -moz-box;display: -webkit-flex; display:-moz-flex; display:-o-flex; display:-ms-flexbox; display: flex; -webkit-flex-direction:row;-moz-flex-direction:row; -o-flex-direction:row; -ms-flex-direction:row; flex-direction: row; }
@@ -32,15 +32,88 @@ body h1, h2, h3, h4, h5, p, a, span {
 .grid-cell.grow2{-webkit-flex-grow:2;-moz-flex-grow:2;flex-grow:2;-ms-flex-grow:2;}
 .grid-cell.grow3{-webkit-flex-grow:3;-moz-flex-grow:3;flex-grow:3;-ms-flex-grow:3;}
 
+
 .padd90 {padding-top:90px;}
 /** -------Nav Menu---------- **/
 
+.main {
+	position: fixed;
+	width: 100%;
+}
 .logoSection h1 {
 	margin: 0;
 }
 .logoSection h1 img {
 	max-width: 100px;
-	margin: 5px 0 0 5px;
+	margin: 5px 0 0 25px;
+}
+.modal-content {
+	background-color: #b1b1b1;
+}
+.modal-header {
+	background-color: #2e92b3;
+	border-bottom: 4px solid #cccccc;
+}
+.modal-title {
+	text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+}
+.modal-footer a {
+	color: #10689a;
+	background-color: #fff;
+    padding: 0 30px;
+    border: none;
+    border-radius: 0;
+}
+.modal-footer a:focus, .modal-footer a:hover {
+	color: #10689a;
+}
+.visible-xs-nav {
+	display: none;
+}
+
+
+/* Smartphones (landscape) ----------- */
+@media only screen and (min-width : 321px) {
+/* Styles */
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen and (max-width : 320px) {
+/* Styles */
+}
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+/* Styles */
+}
+
+/* iPads (portrait) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+/* Styles */
+}
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) and (-webkit-min-device-pixel-ratio : 2) {
+/* Styles */
+}
+
+@media only screen and (max-width : 824px){
+	.hidden-xs-nav {
+		display: none;
+	}
+	.visible-xs-nav {
+		display: block !important;
+	}
+	.cbp-hsinner {
+		-webkit-box-orient: vertical;-moz-box-orient: vertical;-webkit-flex-direction:column;-moz-flex-direction:column; -o-flex-direction:column; -ms-flex-direction:column; flex-direction:column;
+	}
+}
+@media all and (max-width: 858px) and (min-width: 824px) {
+	.cbp-hsmenu-wrapper .cbp-hsmenu {
+		padding: 0px 1.2em !important;
+	}
+	.cbp-hsmenu > li {
+		margin-left: 1em !important;
+	}
+	.hidden-xs-nav
 }
 /* ------------section1 start---------------- */
 .headInfo {
@@ -172,4 +245,8 @@ body h1, h2, h3, h4, h5, p, a, span {
 }
 .footCollumn a{
 	display: block;
+}
+/* Desktops and laptops ----------- */
+@media only screen  and (min-width : 1224px) {
+
 }

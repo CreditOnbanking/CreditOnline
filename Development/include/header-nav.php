@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <link rel="icon" type="image/png" sizes="16x16" href="resources/images/favicon-16x16.png">
+    <title><?php echo $page_title; ?></title>
+    <meta http-equiv="description" content="<?php echo $page_description; ?>" />
+    <!-- Bootstrap -->
+    <link href="resources/css/bootstrap.min.css" rel="stylesheet">
+    <link href="resources/css/main.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="resources/css/default.css" />
+    <link rel="stylesheet" type="text/css" href="resources/css/component.css" />
+    <link rel="stylesheet" type="text/css" href="resources/css/font-awesome.min.css" />
+    <link href="https://fonts.googleapis.com/css?family=Titillium+Web:300,400,600,700" rel="stylesheet">
+    <script src="resources/js/modernizr.custom.js"></script>
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+    <header>
+        <div class="main">
+            <nav class="cbp-hsmenu-wrapper" id="cbp-hsmenu-wrapper">
+                <div class="cbp-hsinner grid center">
+                    <div class="grid-cell logoSection visible-xs-nav" style="width: 100%;">
+                        <div class="grid">
+                            <div class="grid-cell">
+                                <h1 style="margin: 0; "><img src="resources/images/logo.png" alt=""></h1>  
+                            </div>
+                            <div class="grid-cell noflex registrationBox">
+                                <div class="grid">
+                                   <div class="grid-cell" style="margin-right: 10px; text-align: right;"><a href="form/signup.php">Գրանցվել</a></div>
+                                <div class="grid-cell"><a href="form/index.php">Մուտք</a></div> 
+                                </div>
+                            </div>  
+                        </div>
+                    </div>
+                    <div class="logoSection grid-cell hidden-xs-nav">
+                       <h1 style="margin: 0; "><img src="resources/images/logo.png" alt=""></h1> 
+                    </div>
+                    <ul class="cbp-hsmenu grid-cell center-nonText">
+                        <li><a href="#">Գլխավոր</a></li>
+                        <li>
+                            <a href="#">Ծառայությորններ</a>
+                            <ul class="cbp-hssubmenu">
+                                <li>
+                                    <a href="#"><i class="fa fa-car"></i><span>Վարկեր</span></a>
+                                </li>
+                                <li>
+                                    <a href="#"><i class="fa fa-bar-chart"></i><span>Ավանդներ</span></a>
+                                </li>
+                                <li>
+                                    <a href="#"><i class="fa fa-credit-card"></i><span>Քարտեր</span></a>
+                                </li>
+                                <li>
+                                    <a href="#"><i class="fa fa-archive"></i><span>Պահատուփեր</span></a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Մեր Մասին</a></li>
+                        <li><a href="#">Հետադարձ Կապ</a></li>
+                    </ul>
+                    <div class="registrationBox hidden-xs-nav grid-cell end">
+                        <div class="grid">
+                            <div class="grid-cell" style="margin-right: 10px; text-align: right;"><a href="form/signup.php">Գրանցվել</a></div>
+                            <div class="grid-cell"><a href="form/index.php">Մուտք</a></div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+<<<<<<< HEAD:Development/index.html
+    </header>
+    <section id="section1" class="headInfo">
+        <div class="bgShadow">
+            <div class="container">
+                <h1>Մեր նպատակն է` հնարավորություն ընձեռել Ձեզ` գտնելու անհրաժեշտ ֆինանսական ծառայությունները` Ձեր իսկ նախընտրելի պայմաններով: </h1>
+                <!-- <div class="grid">
+                    <div class="grid-cell mainText">
+                        <p>Ձեր ներկայացրած հայտերը հասանելի կլինեն մի շարք բանկերի և վարկային կազմակերպությունների համար:</p>
+                    </div>
+                    <div class="grid-cell mainText">
+                        <p>Այն ֆինանսական կազմակերպությունները, որոնք պատրաստ կլինեն առաջարկել Ձեր կողմից պահանջվող ծառայությունը` Ձեր իսկ նախընտրելի պայմաններով, կվերցնեն Ձեր հայտը և հանդես կգան նշված ծառայությունը Ձեզ մատուցելու առաջարկով: </p>
+                    </div>
+                </div> -->
+                
+            </div>
+        </div>
+    </section>
+    <section id="section2" class="cartBox">
+        <div class="container padd90">
+            <div class="grid">
+                <div class="grid-cell infoBox">
+                    <a href="">
+                       <div class="infoBox_icon icon1">
+                        <div class="infoBox-opacity">
+                            <i class="fa fa-car"></i>
+                            <span>Վարկեր</span> 
+                            <div class="infoBox_bg bg1"></div>
+                        </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="grid-cell infoBox">
+                    <div class="infoBox_icon icon2">
+                        <i class="fa fa-university"></i>
+                        <span>Ավանդներ</span>
+                    </div>
+                    <div class="infoBox_bg bg2"></div>
+                </div>
+                <div class="grid-cell infoBox">
+                    <div class="infoBox_icon icon3">
+                        <i class="fa fa-credit-card"></i>
+                        <span>Քարտեր</span>
+                    </div>
+                    <div class="infoBox_bg bg3"></div>
+                </div>
+                <div class="grid-cell infoBox">
+                    <div class="infoBox_icon icon4">
+                        <i class="fa fa-archive"></i>
+                        <span>Պահատուփեր</span>
+                    </div>
+                    <div class="infoBox_bg bg4"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="section3" class="partners">
+        
+    </section>
+    <footer class="footer">
+        <div class="grid ">
+            <div class="grid-cell footCollumn justify-start">
+                <div class="grid column-orient">
+                    <div class="grid-cell center"><a href="#">Գլխավոր</a></div>
+                    <div class="grid-cell center"><a href="#">Ծառայությորններ</a></div>
+                    <div class="grid-cell center"><a href="#">Մեր Մասին</a></div>
+                    <div class="grid-cell center"><a href="#">Հետադարձ Կապ</a></div>
+                </div>
+            </div>
+              <div class="grid-cell footCollumn">
+                  <div class="grid column-orient">
+                      <div class="grid-cell"></div>
+                      <div class="grid-cell"></div>
+                      <div class="grid-cell"></div>
+                      <div class="grid-cell"></div>
+                  </div>   
+              </div>
+              <div class="grid-cell footCollumn">
+                  <div class="grid column-orient">
+                      <div class="grid-cell"></div>
+                      <div class="grid-cell"></div>
+                      <div class="grid-cell"></div>
+                      <div class="grid-cell"></div>
+                  </div>
+              </div>
+              <div class="grid-cell footCollumn">
+                  <div class="grid column-orient">
+                      <div class="grid-cell"></div>
+                      <div class="grid-cell"></div>
+                      <div class="grid-cell"></div>
+                      <div class="grid-cell"></div>
+                  </div>
+              </div>  
+            </div>
+    </footer>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="resources/js/bootstrap.min.js"></script>
+    <script src="resources/js/cbpHorizontalSlideOutMenu.min.js"></script>
+    <script>
+    var menu = new cbpHorizontalSlideOutMenu(document.getElementById('cbp-hsmenu-wrapper'));
+    </script>
+</body>
+
+</html>
+=======
+    </header>
+>>>>>>> refs/remotes/origin/logInPage:Development/include/header-nav.php
