@@ -21,37 +21,47 @@ $page_description = "Description of this page";
     <section id="section2" class="cartBox">
         <div class="container padd90">
             <div class="grid">
-                <div class="grid-cell infoBox">
-                    <a href="">
-                       <div class="infoBox_icon icon1">
-                        <div class="infoBox-opacity">
-                            <i class="fa fa-car"></i>
-                            <span>Վարկեր</span> 
-                            <div class="infoBox_bg bg1"></div>
-                        </div>
-                        </div>
-                    </a>
+                <div class="cardSelf grid-cell cs-style-3">
+                    <figure>
+                        <div><img src="resources/images/pexels-photo.jpg" alt="img05"></div>
+                        <figcaption>
+                            <h3>Վարկեր</h3>
+                            <span>բանկերի և վարկային</span>
+                            <a href="http://dribbble.com/shots/1116775-Safari">Կարդալ ավելին</a>
+                        </figcaption>
+                    </figure>
                 </div>
-                <div class="grid-cell infoBox">
-                    <div class="infoBox_icon icon2">
-                        <i class="fa fa-university"></i>
-                        <span>Ավանդներ</span>
-                    </div>
-                    <div class="infoBox_bg bg2"></div>
+                <div class="cardSelf grid-cell cs-style-3">
+                    <figure>
+                        <div><img src="resources/images/cards.jpeg" alt="img05"></div>
+                        <figcaption>
+                            <h3>Ավանդներ</h3>
+                            <span></span>
+                            <a href="http://dribbble.com/shots/1116775-Safari">Կարդալ ավելին</a>
+                        </figcaption>
+                    </figure>
                 </div>
-                <div class="grid-cell infoBox">
-                    <div class="infoBox_icon icon3">
-                        <i class="fa fa-credit-card"></i>
-                        <span>Քարտեր</span>
-                    </div>
-                    <div class="infoBox_bg bg3"></div>
+            </div>
+            <div class="grid">
+                <div class="cardSelf grid-cell cs-style-3">
+                    <figure>
+                        <div><img src="resources/images/pexels-photo.jpg" alt="img05"></div>
+                        <figcaption>
+                            <h3>Քարտեր</h3>
+                            <span></span>
+                            <a href="http://dribbble.com/shots/1116775-Safari">Կարդալ ավելին</a>
+                        </figcaption>
+                    </figure>
                 </div>
-                <div class="grid-cell infoBox">
-                    <div class="infoBox_icon icon4">
-                        <i class="fa fa-archive"></i>
-                        <span>Պահատուփեր</span>
-                    </div>
-                    <div class="infoBox_bg bg4"></div>
+                <div class="cardSelf grid-cell cs-style-3">
+                    <figure>
+                        <div><img src="resources/images/cards.jpeg" alt="img05"></div>
+                        <figcaption>
+                            <h3>Պահատուփեր</h3>
+                            <span></span>
+                            <a href="http://dribbble.com/shots/1116775-Safari">Կարդալ ավելին</a>
+                        </figcaption>
+                    </figure>
                 </div>
             </div>
         </div>

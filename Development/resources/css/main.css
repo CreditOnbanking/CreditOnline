@@ -44,6 +44,7 @@ body h1, h2, h3, h4, h5, p, a, span {
 	width: 100%;
 	transition: all .8s;
 	height: 103px;
+	z-index: 999999;
 }
 .expand {
 	height: 57px !important;
@@ -127,76 +128,7 @@ body h1, h2, h3, h4, h5, p, a, span {
 	min-height:700px;
 	background:#243746;
 }
-.infoBox {
-	width:100%;
-	min-height:460px;
-	background:#ccc;
-	margin-right:20px;
-}
-.infoBox a i, .infoBox a span, .infoBox .icon1 {
-	color: #fff;
-	transition: color .8s ease;
-}
-.infoBox a:hover i, .infoBox a:hover span {
-	color: #e34b55;
-	transition: color .8s ease;
-}
-.infoBox a:hover .icon1 {
-	background-color: #404040;
-	transition: background-color .8s ease;
-}
-.infoBox .infoBox_bg {
-	opacity: 1;
-	transition: opacity .8s ease;
-}
-.infoBox a:hover .infoBox_bg {
-	opacity: 0.4;
-	transition: opacity .8s ease;
-}
-.infoBox:last-child {
-	margin-right:0;
-}
-.infoBox_icon {
-	min-height:29%;
-	width:100%;
-}
-.infoBox_icon i {
-	font-size: 70px;
-    color: #fff;
-    display: block;
-    text-align: center;
-    padding-top: 0.3em;
-}
-.infoBox_icon span {
-	font-size:2em;
-	color:#fff;
-	display: block;
-    text-align: center;
-}
-.icon1{
-	background:#e34b55;
-}
-.icon2{
-	background:#2e92b3;
-}
-.icon3{
-	background:#e34b55;
-}
-.icon4{
-	background:#2e92b3;
-}
-.infoBox_bg {
-	
-	background-repeat:no-repeat;
-	background-size:cover;
-	background-position:center center;
-	width:100%;
-	min-height:324px;
-}
-.bg1{background-image:url('../images/images.jpg');}
-.bg2{background-image:url('../images/money.jpg');}
-.bg3{background-image:url('../images/cards.jpeg');}
-.bg4{background-image:url('../images/cards.jpeg');}
+
 /* ----------------section2 end---------------- */
 
 /* --------------section3 start------------- */
