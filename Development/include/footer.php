@@ -1,6 +1,6 @@
 <footer class="footer">
-        <div class="grid center ">
-            <div class="grid-cell center footCollumn justify-start">
+        <div class="grid ">
+            <div class="grid-cell footCollumn justify-start">
                 <div class="grid column-orient">
                     <div class="grid-cell center"><a href="#">Գլխավոր</a></div>
                     <div class="grid-cell center"><a href="#">Ծառայությորններ</a></div>
@@ -8,31 +8,30 @@
                     <div class="grid-cell center"><a href="#">Հետադարձ Կապ</a></div>
                 </div>
             </div>
-            <div class="grid-cell center footCollumn justify-start">
-                <div class="grid column-orient">
-                    <div class="grid-cell center"><a href="#">Գլխավոր</a></div>
-                    <div class="grid-cell center"><a href="#">Ծառայությորններ</a></div>
-                    <div class="grid-cell center"><a href="#">Մեր Մասին</a></div>
-                    <div class="grid-cell center"><a href="#">Հետադարձ Կապ</a></div>
-                </div>
-            </div>
-             <div class="grid-cell center footCollumn justify-start">
-                <div class="grid column-orient">
-                    <div class="grid-cell center"><a href="#">Գլխավոր</a></div>
-                    <div class="grid-cell center"><a href="#">Ծառայությորններ</a></div>
-                    <div class="grid-cell center"><a href="#">Մեր Մասին</a></div>
-                    <div class="grid-cell center"><a href="#">Հետադարձ Կապ</a></div>
-                </div>
-            </div>
-             <div class="grid-cell center footCollumn justify-start">
-                <div class="grid column-orient">
-                    <div class="grid-cell center"><a href="#">Գլխավոր</a></div>
-                    <div class="grid-cell center"><a href="#">Ծառայությորններ</a></div>
-                    <div class="grid-cell center"><a href="#">Մեր Մասին</a></div>
-                    <div class="grid-cell center"><a href="#">Հետադարձ Կապ</a></div>
-                </div>
-            </div>
-               
+              <div class="grid-cell footCollumn">
+                  <div class="grid column-orient">
+                      <div class="grid-cell"></div>
+                      <div class="grid-cell"></div>
+                      <div class="grid-cell"></div>
+                      <div class="grid-cell"></div>
+                  </div>   
+              </div>
+              <div class="grid-cell footCollumn">
+                  <div class="grid column-orient">
+                      <div class="grid-cell"></div>
+                      <div class="grid-cell"></div>
+                      <div class="grid-cell"></div>
+                      <div class="grid-cell"></div>
+                  </div>
+              </div>
+              <div class="grid-cell footCollumn">
+                  <div class="grid column-orient">
+                      <div class="grid-cell"></div>
+                      <div class="grid-cell"></div>
+                      <div class="grid-cell"></div>
+                      <div class="grid-cell"></div>
+                  </div>
+              </div>  
             </div>
     </footer>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
