@@ -231,21 +231,26 @@ body h1, h2, h3, h4, h5, p, a, span {
 	width:100%;
 	min-height:700px;
 }
-/* ---------------section3 end ---------------*/
 /*----------------footer start ---------------*/
 .footer {
 	background-color:#243746;
 	width:100%;
 	min-height:500px;
-
+/* ---------------section3 end ---------------*/
+	
 }
 .footCollumn {
-	width: 100%;
-	margin-right: 10px;
+	
+
 }
-.footCollumn a{
+.footCollumn a {
 	display: block;
+
 }
+
+
+
+
 /* Desktops and laptops ----------- */
 @media only screen  and (min-width : 1224px) {
 
