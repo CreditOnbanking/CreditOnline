@@ -23,9 +23,10 @@
 
 /* 100% width bar for menu */
 .cbp-hsinner {
-	background: #243746;
 	position: relative;
 	z-index: 100;
+	transition: height .8s;
+	height: 103px;
 }
 
 /* Main menu style */

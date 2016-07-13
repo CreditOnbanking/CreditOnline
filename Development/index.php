@@ -7,19 +7,14 @@ $page_description = "Description of this page";
 
 
 <!-- body HTML structure here -->
-<section id="section1" class="headInfo">
+    <section id="section1" data-parallax="scroll" data-image-src="resources/images/firstBg.jpg" class="headInfo">
         <div class="bgShadow">
-            <div class="container">
-                <h1>Մեր նպատակն է` հնարավորություն ընձեռել Ձեզ` գտնելու անհրաժեշտ ֆինանսական ծառայությունները` Ձեր իսկ նախընտրելի պայմաններով: </h1>
-                <!-- <div class="grid">
-                    <div class="grid-cell mainText">
-                        <p>Ձեր ներկայացրած հայտերը հասանելի կլինեն մի շարք բանկերի և վարկային կազմակերպությունների համար:</p>
-                    </div>
-                    <div class="grid-cell mainText">
-                        <p>Այն ֆինանսական կազմակերպությունները, որոնք պատրաստ կլինեն առաջարկել Ձեր կողմից պահանջվող ծառայությունը` Ձեր իսկ նախընտրելի պայմաններով, կվերցնեն Ձեր հայտը և հանդես կգան նշված ծառայությունը Ձեզ մատուցելու առաջարկով: </p>
-                    </div>
-                </div> -->
-                
+            <div class="grid center">
+                <div class="grid-cell"></div>
+                <div class="grid-cell mainText">
+                    <h1>Մեր նպատակն է` հնարավորություն ընձեռել Ձեզ` գտնելու անհրաժեշտ ֆինանսական ծառայությունները` Ձեր իսկ նախընտրելի պայմաններով: </h1>
+                    <p>Ձեր ներկայացրած հայտերը հասանելի կլինեն մի շարք բանկերի և վարկային կազմակերպությունների համար:</p>
+                </div>
             </div>
         </div>
     </section>
@@ -61,7 +56,7 @@ $page_description = "Description of this page";
             </div>
         </div>
     </section>
-    <section id="section3" class="partners">
+    <section id="section3" class="partners" data-parallax="scroll" data-image-src="resources/images/partners.jpg">
         
     </section>
 <!-- End Body HTML structure here -->
