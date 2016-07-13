@@ -109,7 +109,7 @@
 
 /* Add a triangle to currently open menu item link */
 .cbp-hsmenu > li.cbp-hsitem-open > a:after {
-	top: 100%;
+	/*top: 100%;
 	border: solid transparent;
 	content: " ";
 	height: 0;
@@ -120,7 +120,7 @@
 	border-top-color: #47a3da;
 	border-width: 10px;
 	left: 50%;
-	margin-left: -10px;
+	margin-left: -10px;*/
 }
 
 /* Submenu style */
@@ -177,10 +177,12 @@
 	outline: none;
 	padding: 2em 1em 1em 1em;
 }
-
+.no-touch .cbp-hssubmenu > li a {
+	transition: all .4s ease;
+}
 .no-touch .cbp-hssubmenu > li a:hover,
 .no-touch .cbp-hssubmenu > li a:focus {
-	color: #888;
+	background-color: #243746;
 }
 
 .cbp-hssubmenu > li a img {
@@ -202,11 +204,12 @@
 	display: block;
 	min-height: 3em;
 	margin-top: 0.4em;
+	color: #2e92b3;
 }
 .cbp-hssubmenu > li a i {
 	display: block;
-	min-height: 3em;
-	margin-top: 0.4em;
+	font-size: 60px;
+	color: #2e92b3;
 }
 
 .cbp-hsmenu > li.cbp-hsitem-open .cbp-hssubmenu {
@@ -332,7 +335,7 @@
 		line-height: 50px;
 		padding: 0.4em 1em;
 	}
-
+	
 	.cbp-hssubmenu > li a img {
 		float: left;
 		max-height: 50px;

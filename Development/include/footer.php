@@ -1,6 +1,6 @@
 <footer class="footer">
-        <div class="grid center ">
-            <div class="grid-cell center footCollumn justify-start">
+        <div class="grid center" style="padding: 80px 20px;">
+            <div class="grid-cell center footCollumn">
                 <div class="grid column-orient">
                     <div class="grid-cell center"><a href="#">Գլխավոր</a></div>
                     <div class="grid-cell center"><a href="#">Ծառայությորններ</a></div>
@@ -8,7 +8,7 @@
                     <div class="grid-cell center"><a href="#">Հետադարձ Կապ</a></div>
                 </div>
             </div>
-            <div class="grid-cell center footCollumn justify-start">
+            <div class="grid-cell center footCollumn">
                 <div class="grid column-orient">
                     <div class="grid-cell center"><a href="#">Գլխավոր</a></div>
                     <div class="grid-cell center"><a href="#">Ծառայությորններ</a></div>
@@ -16,7 +16,7 @@
                     <div class="grid-cell center"><a href="#">Հետադարձ Կապ</a></div>
                 </div>
             </div>
-             <div class="grid-cell center footCollumn justify-start">
+             <div class="grid-cell center footCollumn">
                 <div class="grid column-orient">
                     <div class="grid-cell center"><a href="#">Գլխավոր</a></div>
                     <div class="grid-cell center"><a href="#">Ծառայությորններ</a></div>
@@ -24,7 +24,7 @@
                     <div class="grid-cell center"><a href="#">Հետադարձ Կապ</a></div>
                 </div>
             </div>
-             <div class="grid-cell center footCollumn justify-start">
+             <div class="grid-cell center footCollumn">
                 <div class="grid column-orient">
                     <div class="grid-cell center"><a href="#">Գլխավոր</a></div>
                     <div class="grid-cell center"><a href="#">Ծառայությորններ</a></div>
