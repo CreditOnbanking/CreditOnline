@@ -139,13 +139,28 @@ body h1, h2, h3, h4, h5, p, a, span {
 	inset 0px 11px 8px -10px #243746,
     inset 0px -11px 8px -10px #243746;
 }
+.partnerBox {
+	background: rgba(255, 255, 255, 0.41);
+    padding: 15px;
+    border-radius: 5px;
+    min-height: 170px;
+}
+.partnerBox img {
+    max-width: 200px;
+    display: block;
+    margin: 20px auto;
+    margin-bottom: 20px;
+}
+.partnerBox span {
+	color: #243746;
+}
 /*----------------footer start ---------------*/
 .footer {
 	background-color:#243746;
 	width:100%;
-/* ---------------section3 end ---------------*/
-	
 }
+/* ---------------section3 end ---------------*/
+
 .footCollumn {
 	
 

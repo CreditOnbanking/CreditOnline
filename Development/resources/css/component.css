@@ -510,6 +510,7 @@
 	max-width: 100%;
 	display: block;
 	position: relative;
+	border-radius: 15px;
 }
 
 .cardSelf figcaption {
