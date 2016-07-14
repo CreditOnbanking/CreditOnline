@@ -1,0 +1,596 @@
+@font-face {
+	font-family: 'bpmenu';
+	src:url('../fonts/bpmenu/bpmenu.eot');
+	src:url('../fonts/bpmenu/bpmenu.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/bpmenu/bpmenu.woff') format('woff'),
+		url('../fonts/bpmenu/bpmenu.ttf') format('truetype'),
+		url('../fonts/bpmenu/bpmenu.svg#bpmenu') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* Main menu wrapper */
+.cbp-hsmenu-wrapper {
+	position: relative;
+}
+
+/* Common style for all lists */
+.cbp-hsmenu-wrapper ul {
+	list-style: none;
+	padding: 0;
+	margin: 0 auto;
+}
+
+/* 100% width bar for menu */
+.cbp-hsinner {
+	position: relative;
+	z-index: 100;
+	transition: height .8s;
+	height: 103px;
+}
+
+/* Main menu style */
+.cbp-hsmenu-wrapper .cbp-hsmenu {
+	width: 90%;
+	max-width: 69em;
+	margin: 0 auto;
+	padding: 0 1.875em;
+}
+
+.cbp-hsmenu > li {
+	margin-left: 2em;
+	display: inline-block;
+}
+
+.cbp-hsmenu > li:first-child {
+	margin-left: 0;
+}
+
+/* Main menu link style */
+.cbp-hsmenu > li > a {
+	color: #fff;
+	font-size: 1.2em;
+	line-height: 3em;
+	display: inline-block;
+	position: relative;
+	z-index: 10000;
+	outline: none;
+}
+.no-touch .cbp-hsmenu > li > a:hover,
+.no-touch .cbp-hsmenu > li > a:focus,
+.cbp-hsmenu > li.cbp-hsitem-open > a {
+	color: #02639d;
+}
+.registrationBox a {
+	color: #fff;
+	font-size: 1.2em;
+	line-height: 3em;
+	display: inline-block;
+	position: relative;
+	z-index: 10000;
+	outline: none;	
+}
+.registrationBox div div:first-child a {
+	background-color: #e34b55;
+	padding: 0px 15px;
+}
+.registrationBox div div:last-child a {
+	background-color: #2e92b3;
+	padding: 0px 15px;
+}
+.no-touch .cbp-hsmenu > li > a:hover,
+.no-touch .cbp-hsmenu > li > a:focus,
+.cbp-hsmenu > li.cbp-hsitem-open > a {
+	color: #fff;
+	text-decoration: none;
+	outline: none;
+}
+/* Add an arrow to the main menu link if it has a submenu (not the only child) */
+.cbp-hsmenu > li > a:not(:only-child):before {
+	display: inline-block;
+	font-family: 'bpmenu';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	content: "\f107";
+	font-size: 80%;
+	margin-right: 0.3em;
+	opacity: 0.4;
+	vertical-align: middle;
+}
+
+.cbp-hsmenu > li.cbp-hsitem-open > a:not(:only-child):before {
+	content: "\f106";
+}
+
+/* Add a triangle to currently open menu item link */
+.cbp-hsmenu > li.cbp-hsitem-open > a:after {
+	/*top: 100%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+	border-color: transparent;
+	border-top-color: #47a3da;
+	border-width: 10px;
+	left: 50%;
+	margin-left: -10px;*/
+}
+
+/* Submenu style */
+.cbp-hssubmenu {
+	position: absolute;
+	left: 0;
+	top: 100%;
+	width: 100%;
+	z-index: 0;
+	text-align: center; /* for aligning the sub items */
+	visibility: hidden;
+}
+
+.cbp-hssubmenu:before, 
+.cbp-hssubmenu:after { 
+	content: " "; 
+	display: table; 
+}
+.cbp-hssubmenu:after { 
+	clear: both; 
+}
+
+/* Let's allow 6 item in a row */
+.cbp-hssubmenu > li {
+	width: 16.2%;
+	display: inline-block;
+	vertical-align: top;
+	box-shadow: -28px 0 0 -27px #ddd, 0 -28px 0 -27px #ddd;
+	opacity: 0;
+	-webkit-transition: opacity 0.1s 0s;
+	-moz-transition: opacity 0.1s 0s;
+	transition: opacity 0.1s 0s;
+}
+
+/* First 6 items don't have upper box shadow */
+.cbp-hssubmenu > li:nth-child(-n+6) {
+	box-shadow: -28px 0 0 -27px #ddd;
+} 
+
+/* Every 7th item does not have a left box shadow */
+.cbp-hssubmenu > li:nth-child(6n+1) {
+	box-shadow:  0 -28px 0 -27px #ddd;
+}
+
+/* The first one does not have any box shadow */
+.cbp-hssubmenu > li:first-child {
+	box-shadow: none;
+}
+
+.cbp-hssubmenu > li a {
+	display: block;
+	text-align: center;
+	color: #a2a2a2;
+	outline: none;
+	padding: 2em 1em 1em 1em;
+}
+.no-touch .cbp-hssubmenu > li a {
+	transition: all .4s ease;
+}
+.no-touch .cbp-hssubmenu > li a:hover,
+.no-touch .cbp-hssubmenu > li a:focus {
+	background-color: #243746;
+}
+.no-touch .cbp-hssubmenu > li a:hover i {
+	color: #fff;
+}
+.no-touch .cbp-hssubmenu > li a:hover span {
+	color: #fff;
+}
+.cbp-hssubmenu > li a img {
+	border: none;
+	outline: none;
+	display: inline-block;
+	margin: 0;
+	max-width: 100%;
+	-webkit-transition: opacity 0.2s;
+	-moz-transition: opacity 0.2s;
+	transition: opacity 0.2s;
+}
+
+.no-touch .cbp-hssubmenu > li a:hover img {
+	opacity: 0.5;
+}
+
+.cbp-hssubmenu > li a span {
+	display: block;
+	min-height: 3em;
+	margin-top: 0.4em;
+	color: #2e92b3;
+}
+.cbp-hssubmenu > li a i {
+	display: block;
+	font-size: 60px;
+	color: #2e92b3;
+}
+
+.cbp-hsmenu > li.cbp-hsitem-open .cbp-hssubmenu {
+	z-index: 1000;
+	visibility: visible;
+}
+
+.cbp-hsmenu > li.cbp-hsitem-open .cbp-hssubmenu > li {
+	opacity: 1;
+	-webkit-transition: opacity 0.5s 0.1s;
+	-moz-transition: opacity 0.5s 0.1s;
+	transition: opacity 0.5s 0.1s;
+}
+
+/* Helper div for animating the background */
+.cbp-hsmenubg {
+	background: #f7f7f7;
+	position: absolute;
+	width: 100%;
+	top: 100%;
+	left: 0;
+	z-index: 0;
+	height: 0px;
+}
+
+.no-touch .cbp-hsmenubg {
+	-webkit-transition: height 0.3s;
+	-moz-transition: height 0.3s;
+	transition: height 0.3s;
+}
+
+@media screen and (max-width: 65em){
+	.cbp-hsmenu-wrapper {
+		font-size: 80%;
+	}
+}
+
+@media screen and (max-width: 51.4375em){
+	.cbp-hsmenu-wrapper {
+		font-size: 100%;
+	}
+
+	.cbp-hsmenu-wrapper .cbp-hsmenu {
+		padding: 0;
+		max-width: none;
+		width: 100%;
+	}
+
+	.cbp-hsmenu > li {
+		border-top: 1px solid rgba(255,255,255,0.5);
+		text-align: center;
+		margin: 0 auto;
+		display: block;
+	}
+
+	.cbp-hsmenu > li:first-child {
+		border-top: none;
+	}
+
+	.cbp-hsmenu > li > a {
+		display: block;
+	}
+
+	.cbp-hsmenu > li > a:not(:only-child):before {
+		line-height: 1.8;
+		right: 0;
+		position: absolute;
+		font-size: 200%;
+	}
+
+	.cbp-hsmenubg {
+		display: none;
+	}
+
+	.cbp-hssubmenu {
+		background: #f7f7f7;
+		position: relative;
+		overflow: hidden;
+		height: 0;
+	}
+
+	.cbp-hsmenu > li.cbp-hsitem-open .cbp-hssubmenu {
+		height: auto;
+	}
+
+	/* Let's only allow 3 item in a row now */
+	.cbp-hssubmenu > li {
+		width: 30%;
+	}
+
+	/* Reset box shadows for the 6 items in row case */
+	.cbp-hssubmenu > li:nth-child(-n+6),
+	.cbp-hssubmenu > li:nth-child(6n+1) {
+		box-shadow: -28px 0 0 -27px #ddd, 0 -28px 0 -27px #ddd;
+	}
+
+	/* First 4 items don't have upper box shadow */
+	.cbp-hssubmenu > li:nth-child(-n+3) {
+		box-shadow: -28px 0 0 -27px #ddd;
+	} 
+
+	/* Every 5th item does not have a left box shadow */
+	.cbp-hssubmenu > li:nth-child(3n+1) {
+		box-shadow:  0 -28px 0 -27px #ddd;
+	}
+
+}
+
+@media screen and (max-width: 25em){
+	/* Let's only allow 1 item in a row now */
+	.cbp-hssubmenu > li {
+		width: 100%;
+		display: block;
+	}
+
+	.cbp-hsmenu-wrapper .cbp-hssubmenu > li {
+		box-shadow: 0 1px #cecece;
+		text-align: left;
+	}
+
+	.cbp-hssubmenu > li a {
+		text-align: left;
+		line-height: 50px;
+		padding: 0.4em 1em;
+	}
+	
+	.cbp-hssubmenu > li a img {
+		float: left;
+		max-height: 50px;
+	}
+
+	.cbp-hssubmenu > li a span {
+		min-height: 0;
+		margin: 0;
+	}
+}
+
+
+	/** Modal styling **/
+
+
+.cbp-mc-form {
+	position: relative;
+}
+
+/* Clearfix hack by Nicolas Gallagher: http://nicolasgallagher.com/micro-clearfix-hack/ */
+.cbp-mc-form:before, 
+.cbp-mc-form:after { 
+	content: " "; display: table; 
+}
+
+.cbp-mc-form:after { 
+	clear: both; 
+}
+
+.cbp-mc-column {
+	width: 50%;
+	padding: 10px 30px;
+	float: left;
+}
+
+.cbp-mc-form label {
+	color: #fff;
+	white-space: nowrap;
+	display: block;
+	padding: 40px 5px 5px 2px;
+	font-size: 1.1em;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	cursor: pointer;
+}
+
+.cbp-mc-form input,
+.cbp-mc-form textarea,
+.cbp-mc-form select {
+	font-family: 'Lato', Calibri, Arial, sans-serif;
+	line-height: 1.5;
+	font-size: 1.4em;
+	padding: 5px 10px;
+	color: #fff;
+	display: block;
+	width: 100%;
+	background: transparent;
+}
+
+.cbp-mc-form input,
+.cbp-mc-form textarea {
+	border: 3px solid #fff;
+}
+
+.cbp-mc-form textarea {
+	min-height: 200px;
+}
+
+.cbp-mc-form input:focus,
+.cbp-mc-form textarea:focus,
+.cbp-mc-form label:active + input,
+.cbp-mc-form label:active + textarea {
+	outline: none;
+	border: 3px solid #2e92b3;;
+}
+
+.cbp-mc-form select:focus {
+	outline: none;
+}
+
+::-webkit-input-placeholder { /* WebKit browsers */
+    color: #fff;
+    font-style: italic;
+}
+
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color: #10689a;
+    font-style: italic;
+}
+
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color: #10689a;
+    font-style: italic;
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+    color: #10689a;
+    font-style: italic;
+}
+
+.cbp-mc-submit-wrap {
+	text-align: center;
+	padding-top: 40px;
+	clear: both;
+}
+
+.cbp-mc-form input.cbp-mc-submit {
+	background: #10689a;
+	border: none;
+	color: #fff;
+	width: auto;
+	cursor: pointer;
+	text-transform: uppercase;
+	display: inline-block;
+	padding: 15px 30px;
+	font-size: 1.1em;
+	border-radius: 2px;
+	letter-spacing: 1px;
+}
+
+.cbp-mc-form input.cbp-mc-submit:hover {
+	background: #1478b1;
+}
+
+@media screen and (max-width: 70em) {
+	.cbp-mc-column {
+		width: 50%;
+	}
+	.cbp-mc-column:nth-child(3) {
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 48em) {
+	.cbp-mc-column {
+		width: 100%;
+		padding: 10px;
+	}
+}
+
+
+/*   hover cards */
+.cardSelf {
+	padding: 20px 20px 100px 20px;
+	max-width: 1300px;
+	margin: 0 auto;
+	list-style: none;
+	text-align: center;
+}
+
+.cardSelf li {
+	display: inline-block;
+	width: 440px;
+	margin: 0;
+	padding: 20px;
+	text-align: left;
+	position: relative;
+}
+
+.cardSelf figure {
+	margin: 0;
+	position: relative;
+}
+
+.cardSelf figure img {
+	min-width: 300px;
+	max-width: 100%;
+	display: block;
+	position: relative;
+	border-radius: 15px;
+}
+
+.cardSelf figcaption {
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding: 20px;
+	background: #2c3f52;
+	color: #ed4e6e;
+}
+
+.cardSelf figcaption h3 {
+	margin: 0;
+	padding: 0;
+	color: #fff;
+	text-align: left;
+	margin-bottom: 10px;
+}
+
+.cardSelf figcaption span {
+	text-align: left;
+    display: block;
+    color: #ed4e6e;
+}
+
+.cardSelf figcaption a {
+	text-align: center;
+	padding: 5px 10px;
+	border-radius: 2px;
+	display: inline-block;
+	background: #ed4e6e;
+	color: #fff;
+}
+.cs-style-3 figure {
+	overflow: hidden;
+}
+
+.cs-style-3 figure img {
+	-webkit-transition: -webkit-transform 0.4s;
+	-moz-transition: -moz-transform 0.4s;
+	transition: transform 0.4s;
+}
+
+.no-touch .cs-style-3 figure:hover img,
+.cs-style-3 figure.cs-hover img {
+	-webkit-transform: translateY(-50px);
+	-moz-transform: translateY(-50px);
+	-ms-transform: translateY(-50px);
+	transform: translateY(-50px);
+}
+
+.cs-style-3 figcaption {
+	height: 100px;
+	width: 100%;
+	top: auto;
+	bottom: 0;
+	opacity: 0;
+	-webkit-transform: translateY(100%);
+	-moz-transform: translateY(100%);
+	-ms-transform: translateY(100%);
+	transform: translateY(100%);
+	-webkit-transition: -webkit-transform 0.4s, opacity 0.1s 0.3s;
+	-moz-transition: -moz-transform 0.4s, opacity 0.1s 0.3s;
+	transition: transform 0.4s, opacity 0.1s 0.3s;
+}
+
+.no-touch .cs-style-3 figure:hover figcaption,
+.cs-style-3 figure.cs-hover figcaption {
+	opacity: 1;
+	-webkit-transform: translateY(0px);
+	-moz-transform: translateY(0px);
+	-ms-transform: translateY(0px);
+	transform: translateY(0px);
+	-webkit-transition: -webkit-transform 0.4s, opacity 0.1s;
+	-moz-transition: -moz-transform 0.4s, opacity 0.1s;
+	transition: transform 0.4s, opacity 0.1s;
+}
+
+.cs-style-3 figcaption a {
+	position: absolute;
+	bottom: 20px;
+	right: 20px;
+}
