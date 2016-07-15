@@ -52,7 +52,7 @@
                         </button>  
                     </div>
                     <ul class="cbp-hsmenu grid-cell center-nonText">
-                        <li><a href="#">Գլխավոր</a></li>
+                        <li><a href="index.php">Գլխավոր</a></li>
                         <li>
                             <a href="#">Ծառայությորններ</a>
                             <ul class="cbp-hssubmenu">
@@ -71,7 +71,7 @@
                             </ul>
                         </li>
                         <li><a href="#">Մեր Մասին</a></li>
-                        <li><a href="#">Հետադարձ Կապ</a></li>
+                        <li><a href="contact.php">Հետադարձ Կապ</a></li>
                     </ul>
                     <div class="registrationBox hidden-xs-nav grid-cell end">
                         <div class="grid">
