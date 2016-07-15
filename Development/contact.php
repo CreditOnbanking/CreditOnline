@@ -74,6 +74,18 @@ $page_description = "Description of this page";
 		width: 100%;
 		pointer-events: none;
 	}
+	.btn {
+		background-color: #fd4a46;
+		color: #fff;
+
+	}
+	.btn:hover {
+		color: #fff;
+	}
+	.btn.active.focus, .btn.active:focus, .btn.focus, .btn:active.focus, .btn:active:focus, .btn:focus {
+		outline: none;
+		color: #fff;
+	}
 	@media only screen and (max-width : 790px){
 		.contactForm>.grid {
 			-webkit-box-orient: vertical;-moz-box-orient: vertical;-webkit-flex-direction:column;-moz-flex-direction:column; -o-flex-direction:column; -ms-flex-direction:column; flex-direction:column;
@@ -101,7 +113,10 @@ $page_description = "Description of this page";
 				</div>
 			</form>
 		</div>
-		<div class="grid-cell">
+		<div class="grid-cell center">
+			<div>
+				<button class="btn" action="submit" type="submit">Հաստատել</button>
+			</div>
 			<div class="number">
 				<span><i class="fa fa-phone"></i>Մեր հեռախոսահամարը : +374 77 77 77</span>
 				<span><i class="fa fa-envelope"></i>Մեր էլ. հասցեն : support@mybanking.com</span>
