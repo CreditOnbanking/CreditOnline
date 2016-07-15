@@ -42,21 +42,10 @@
     <script src="resources/js/cbpHorizontalSlideOutMenu.min.js"></script>
     <script type="text/javascript" src="resources/js/parallax.min.js"></script>
     <script type="text/javascript" src="resources/js/toucheffects.js"></script>
-    <script type="text/javascript">
-        $(window).on('scroll', function () {
-            if ($(this).scrollTop() > 90) {
-                if (!$('.main').hasClass('expand') && !$('.cbp-hsinner').hasClass('expand') && !$('.webLogo').hasClass('animLogo'))  {
-                    $('.main').addClass('expand') && $('.cbp-hsinner').addClass('expand') && $('.webLogo').addClass('animLogo');
-                }
-            } else {
-                if ($('.main').hasClass('expand') && $('.cbp-hsinner').hasClass('expand') && $('.webLogo').hasClass('animLogo')) {
-                    $('.main').removeClass('expand') && $('.cbp-hsinner').removeClass('expand') && $('.webLogo').removeClass('animLogo');
-                }
-            }
-        });
-    </script>
+    <script type="text/javascript" src="resources/js/menu-collapse.js"></script>
+    <script type="text/javascript" src="resources/js/menu-detectWidth-toggle.js"></script>
     <script>
-    var menu = new cbpHorizontalSlideOutMenu(document.getElementById('cbp-hsmenu-wrapper'));
+        var menu = new cbpHorizontalSlideOutMenu(document.getElementById('cbp-hsmenu-wrapper'));
     </script>
 </body>
 
