@@ -19,7 +19,7 @@ $page_description = "Description of this page";
     </section>
     <section id="section2" class="cartBox">
         <div class="container padd90">
-            <div class="grid">
+            <div class="grid cardsCol">
                 <div class="cardSelf grid-cell cs-style-3">
                     <figure>
                         <div><img src="resources/images/pexels-photo.jpg" alt="img05"></div>
@@ -41,7 +41,7 @@ $page_description = "Description of this page";
                     </figure>
                 </div>
             </div>
-            <div class="grid">
+            <div class="grid cardsCol">
                 <div class="cardSelf grid-cell cs-style-3">
                     <figure>
                         <div><img src="resources/images/pexels-photo.jpg" alt="img05"></div>
@@ -66,49 +66,51 @@ $page_description = "Description of this page";
         </div>
     </section>
     <section id="section3" class="partners" data-parallax="scroll" data-image-src="resources/images/partners.jpg">
-        <h2 style="text-align: center; color: #233746; padding-top: 88px;">Մեր գօրծընկեր բանկերը`</h2>
-        <div class="grid center" style="height: 90vh; max-width: 1050px; margin: 0 auto;">
-            <div class="grid-cell center" style="width: 33%;margin-right: 10px;">
-                <div class="grid center column-orient partnerBox">
+        <h2 style="text-align: center; color: #233746; padding-top: 88px;padding-bottom: 40px;">Մեր գօրծընկեր բանկերը`</h2>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 col-sm-6 col-xs-12">
+                    <div class="partnerBox grid center column-orient">
                     <div class="grid-cell center">
-                        <img src="resources/images/hsbc.png" alt="">    
+                        <img src="resources/images/hsbc.png" alt="">
                     </div>
                     <div class="grid-cell center">
                         <span>HSBC Բանկ</span>    
-                    </div>                    
+                    </div>
+                    </div>  
                 </div>
-            </div>
-            <div class="grid-cell center" style="width: 33%;margin-right: 10px;">
-                <div class="grid center column-orient partnerBox">
+                <div class="col-md-3 col-sm-6 col-xs-12">
+                <div class="partnerBox grid center column-orient">
                     <div class="grid-cell center">
                         <img src="resources/images/acba.png" alt="">    
                     </div>
                     <div class="grid-cell center">
                         <span>ACBA Բանկ</span>    
-                    </div>                    
+                    </div> 
                 </div>
-            </div>
-            <div class="grid-cell center" style="width: 33%;margin-right: 10px;">
-                <div class="grid center column-orient partnerBox">
+                </div>
+                <div class="col-md-3 col-sm-6 col-xs-12">
+                <div class="partnerBox grid center column-orient">
                     <div class="grid-cell center">
                         <img src="resources/images/abb.png" alt="">    
                     </div>
                     <div class="grid-cell center">
-                        <span>ABB Բանկ</span>    
-                    </div>                    
+                        <span>ABB Բանկ</span>
+                    </div>
+                </div> 
                 </div>
-            </div>
-            <div class="grid-cell center" style="width: 33%;">
-                <div class="grid center column-orient partnerBox">
+                <div class="col-md-3 col-sm-6 col-xs-12">
+                <div class="partnerBox grid center column-orient">
                     <div class="grid-cell center">
                         <img src="resources/images/procredit.png" alt="">    
                     </div>
                     <div class="grid-cell center">
                         <span>Pro Credit Բանկ</span>    
-                    </div>                    
+                    </div>
+                </div>
                 </div>
             </div>
-        </div>
+        </div>    
     </section>
 <!-- End Body HTML structure here -->
 

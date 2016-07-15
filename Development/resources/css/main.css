@@ -149,10 +149,12 @@ body h1, h2, h3, h4, h5, p, a, span {
     inset 0px -11px 8px -10px #243746;
 }
 .partnerBox {
+	margin-top:10px;
 	background: rgba(255, 255, 255, 0.41);
     padding: 15px;
     border-radius: 5px;
     min-height: 170px;
+
 }
 .partnerBox img {
     max-width: 200px;
@@ -185,9 +187,6 @@ body h1, h2, h3, h4, h5, p, a, span {
 		display: block !important;
 	}
 }
-@media only screen and (max-width : 320px) {
-/* Styles */
-}
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
 /* Styles */
 }
@@ -199,7 +198,22 @@ body h1, h2, h3, h4, h5, p, a, span {
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) and (-webkit-min-device-pixel-ratio : 2) {
 /* Styles */
 }
-
+@media all and (max-width: 858px) and (min-width: 824px) {
+	.cbp-hsmenu-wrapper .cbp-hsmenu {
+		padding: 0px 1.2em !important;
+	}
+	.cbp-hsmenu > li {
+		margin-left: 1em !important;
+	}
+}
+@media only screen and (max-width : 320px) {
+/* Styles */
+}
+@media only screen and (max-width : 730px){
+	.cardsCol {
+		-webkit-box-orient: vertical;-moz-box-orient: vertical;-webkit-flex-direction:column;-moz-flex-direction:column; -o-flex-direction:column; -ms-flex-direction:column; flex-direction:column;
+	}
+}
 @media only screen and (max-width : 824px){
 	.hidden-xs-nav {
 		display: none;
@@ -237,14 +251,9 @@ body h1, h2, h3, h4, h5, p, a, span {
 		background-color: rgba(36, 55, 70, 0.64) !important;
 	}
 }
-@media all and (max-width: 858px) and (min-width: 824px) {
-	.cbp-hsmenu-wrapper .cbp-hsmenu {
-		padding: 0px 1.2em !important;
-	}
-	.cbp-hsmenu > li {
-		margin-left: 1em !important;
-	}
-	.hidden-xs-nav
+@media only screen and (max-width : 1090px){
+
 }
+
 
 
