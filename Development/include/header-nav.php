@@ -46,6 +46,11 @@
                     <div class="logoSection grid-cell hidden-xs-nav">
                        <h1 style="margin: 0; "><img class="webLogo" src="resources/images/logo.png" alt="" ></h1> 
                     </div>
+                    <div class="visible-xs-nav collapseIcon-box">
+                        <button class="c-hamburger c-hamburger--htx">
+                          <span>toggle menu</span>
+                        </button>  
+                    </div>
                     <ul class="cbp-hsmenu grid-cell center-nonText">
                         <li><a href="#">Գլխավոր</a></li>
                         <li>

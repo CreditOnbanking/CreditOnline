@@ -50,8 +50,16 @@ body h1, h2, h3, h4, h5, p, a, span {
 	height: 57px !important;
 	background-color: rgba(36, 55, 70, 0.27);
 }
+.logoSection {
+	position: relative;
+}
 .logoSection h1 {
 	margin: 0;
+}
+.collapseIcon-box {
+	position: absolute;
+	bottom: 0;
+	left: 47%;
 }
 .webLogo {
 	max-width: 100px;
@@ -171,8 +179,10 @@ body h1, h2, h3, h4, h5, p, a, span {
 }
 
 /* Smartphones (landscape) ----------- */
-@media only screen and (min-width : 321px) {
-/* Styles */
+@media only screen and (min-width : 824px) and (max-width : 5000px) {
+	.cbp-hsmenu {
+		display: block !important;
+	}
 }
 
 /* Smartphones (portrait) ----------- */
@@ -200,6 +210,14 @@ body h1, h2, h3, h4, h5, p, a, span {
 	}
 	.cbp-hsinner {
 		-webkit-box-orient: vertical;-moz-box-orient: vertical;-webkit-flex-direction:column;-moz-flex-direction:column; -o-flex-direction:column; -ms-flex-direction:column; flex-direction:column;
+	}
+	.cbp-hsmenu {
+		display: none;
+		background-color: #243746;
+		transition: background-color .8s ease;
+	}
+	.open-nav {
+		background-color: rgba(36, 55, 70, 0.64) !important;
 	}
 }
 @media all and (max-width: 858px) and (min-width: 824px) {
