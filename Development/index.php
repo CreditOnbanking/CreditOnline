@@ -7,13 +7,12 @@ $page_description = "Description of this page";
 
 
 <!-- body HTML structure here -->
-    <section id="section1" data-parallax="scroll" data-image-src="resources/images/firstBg.jpg" class="headInfo">
-        <div class="bgShadow">
+    <section id="section1" data-parallax="scroll" data-image-src="resources/images/cityBg.jpg" class="headInfo">
+        <div class="headInfo_bg">
             <div class="grid center">
-                <div class="grid-cell"></div>
                 <div class="grid-cell mainText">
-                    <h1>Մեր նպատակն է` հնարավորություն ընձեռել Ձեզ` գտնելու անհրաժեշտ ֆինանսական ծառայությունները` Ձեր իսկ նախընտրելի պայմաններով: </h1>
-                    <p>Ձեր ներկայացրած հայտերը հասանելի կլինեն մի շարք բանկերի և վարկային կազմակերպությունների համար:</p>
+                    <h1>ֆինանսական ծառայությունները` Ձեր իսկ նախընտրելի պայմաններով:  </h1>
+                    <p>Ձեր ներկայացրած հայտերը հասանելի կլինեն մի շարք բանկերի և վարկային կազմակերպությունների համար: Այն ֆինանսական կազմակերպությունները, որոնք պատրաստ կլինեն առաջարկել Ձեր կողմից պահանջվող ծառայությունը` Ձեր իսկ նախընտրելի պայմաններով, կվերցնեն Ձեր հայտը և հանդես կգան նշված ծառայությունը Ձեզ մատուցելու առաջարկով: Մեր միջոցով Դուք կգտնեք Ձեր ամենահարմար ֆինանսական գործընկերոջը:</p>
                 </div>
             </div>
         </div>
