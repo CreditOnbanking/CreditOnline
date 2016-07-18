@@ -70,7 +70,7 @@
                                 </li>
                             </ul>
                         </li>
-                        <li><a href="#">Մեր Մասին</a></li>
+                        <li><a href="about.php">Մեր Մասին</a></li>
                         <li><a href="contact.php">Հետադարձ Կապ</a></li>
                     </ul>
                     <div class="registrationBox hidden-xs-nav grid-cell end">
