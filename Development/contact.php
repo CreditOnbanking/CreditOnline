@@ -33,7 +33,7 @@ $page_description = "Description of this page";
 		min-width: 360px;
 	}
 	.contactForm textarea {
-		min-height: 231px
+		min-height: 231px;
 	}
 	.contactForm input[type="text"], .contactForm textarea {
 		min-width: 360px;

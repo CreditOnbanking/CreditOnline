@@ -15,7 +15,7 @@
     <link rel="stylesheet" type="text/css" href="resources/css/default.css" />
     <link rel="stylesheet" type="text/css" href="resources/css/component.css" />
     <link rel="stylesheet" type="text/css" href="resources/css/font-awesome.min.css" />
-    <link href="https://fonts.googleapis.com/css?family=Titillium+Web:300,400,600,700" rel="stylesheet">
+    <link href="http://fonts.googleapis.com/earlyaccess/notosansarmenian.css" rel="stylesheet">
     <script src="resources/js/modernizr.custom.js"></script>
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->

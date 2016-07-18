@@ -63,20 +63,21 @@
 }
 .registrationBox a {
 	color: #fff;
-	font-size: 1.2em;
+	font-size: 0.9em;
 	line-height: 3em;
 	display: inline-block;
 	position: relative;
 	z-index: 10000;
 	outline: none;	
+	padding: 0 10px;
+	width: 92px;
+	text-align: center;
 }
 .registrationBox div div:first-child a {
 	background-color: #e34b55;
-	padding: 0px 15px;
 }
 .registrationBox div div:last-child a {
 	background-color: #2e92b3;
-	padding: 0px 15px;
 }
 .no-touch .cbp-hsmenu > li > a:hover,
 .no-touch .cbp-hsmenu > li > a:focus,
@@ -506,17 +507,17 @@
 }
 
 .cardSelf figure img {
-	min-width: 300px;
-	max-width: 100%;
+	max-width: 300px;
 	display: block;
+	margin: 0 auto;
 	position: relative;
 	border-radius: 15px;
 }
 
 .cardSelf figcaption {
-	position: absolute;
+	/*position: absolute;
 	top: 0;
-	left: 0;
+	left: 0;*/
 	padding: 20px;
 	background: #2c3f52;
 	color: #ed4e6e;
@@ -566,7 +567,9 @@
 	height: 100px;
 	width: 100%;
 	top: auto;
-	bottom: 0;
+	margin-top: -100px;
+	max-width: 300px;
+	margin: -100px auto 0 auto;
 	opacity: 0;
 	-webkit-transform: translateY(100%);
 	-moz-transform: translateY(100%);

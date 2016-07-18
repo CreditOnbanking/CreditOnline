@@ -22,7 +22,7 @@ $page_description = "Description of this page";
             <div class="grid">
                 <div class="cardSelf grid-cell cs-style-3">
                     <figure>
-                        <div><img src="resources/images/pexels-photo.jpg" alt="img05"></div>
+                        <div><img src="resources/images/cardExchange.png" alt="img05" style="background-color: #afdeff;"></div>
                         <figcaption>
                             <h3>Վարկեր</h3>
                             <span>բանկերի և վարկային</span>
@@ -32,7 +32,7 @@ $page_description = "Description of this page";
                 </div>
                 <div class="cardSelf grid-cell cs-style-3">
                     <figure>
-                        <div><img src="resources/images/cards.jpeg" alt="img05"></div>
+                        <div><img src="resources/images/card5.png" alt="img05" style="background-color: #8dffd0;"></div>
                         <figcaption>
                             <h3>Ավանդներ</h3>
                             <span></span>
@@ -44,7 +44,7 @@ $page_description = "Description of this page";
             <div class="grid">
                 <div class="cardSelf grid-cell cs-style-3">
                     <figure>
-                        <div><img src="resources/images/pexels-photo.jpg" alt="img05"></div>
+                        <div><img src="resources/images/card6.png" alt="img05" style="background-color: #95f5c0;"></div>
                         <figcaption>
                             <h3>Քարտեր</h3>
                             <span></span>
@@ -54,7 +54,7 @@ $page_description = "Description of this page";
                 </div>
                 <div class="cardSelf grid-cell cs-style-3">
                     <figure>
-                        <div><img src="resources/images/cards.jpeg" alt="img05"></div>
+                        <div><img src="resources/images/card8.png" alt="img05" style="background-color: #6fb6e8;"></div>
                         <figcaption>
                             <h3>Պահատուփեր</h3>
                             <span></span>
@@ -66,7 +66,7 @@ $page_description = "Description of this page";
         </div>
     </section>
     <section id="section3" class="partners" data-parallax="scroll" data-image-src="resources/images/partners.jpg">
-        <h2 style="text-align: center; color: #233746; padding-top: 88px;">Մեր գօրծընկեր բանկերը`</h2>
+        <h2 style="text-align: center; color: #fff; padding-top: 88px;">Մեր գօրծընկեր բանկերը`</h2>
         <div class="grid center" style="height: 90vh; max-width: 1050px; margin: 0 auto;">
             <div class="grid-cell center" style="width: 33%;margin-right: 10px;">
                 <div class="grid center column-orient partnerBox">
