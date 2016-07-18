@@ -56,7 +56,7 @@ $page_description = "Description of this page";
 		color: #243746;
 	}
 	.number {
-	    margin: 20px 0px 50px 0px;
+	    
 	}
 	.number span {
 		display: block;
@@ -86,6 +86,12 @@ $page_description = "Description of this page";
 		outline: none;
 		color: #fff;
 	}
+	.contactContainer {
+	    background: rgba(0, 0, 0, 0.25);
+	    padding: 25px;
+	    border-radius: 8px;
+	    margin-bottom: 15px;
+	}
 	@media only screen and (max-width : 790px){
 		.contactForm>.grid {
 			-webkit-box-orient: vertical;-moz-box-orient: vertical;-webkit-flex-direction:column;-moz-flex-direction:column; -o-flex-direction:column; -ms-flex-direction:column; flex-direction:column;
@@ -97,7 +103,7 @@ $page_description = "Description of this page";
 		<div class="grid-cell" style="margin-top: 125px;">
 			<h2>Հետադարձ կապ</h2>
 			<form class="contactForm">
-				<div class="grid ">
+				<div class="grid contactContainer">
 					<div class="grid-cell" style="margin-right: 50px;">
 						<label>Անուն</label>
 						<input type="text" placeholder="Անուն"/>
@@ -111,14 +117,16 @@ $page_description = "Description of this page";
 						<textarea name="message" placeholder="Նամակ"></textarea>
 					</div>
 				</div>
+				<div style="text-align: center;">
+					<button class="btn" action="submit" type="submit">Հաստատել</button>
+				</div>
 			</form>
 		</div>
+	</div>
+	<div class="grid center" style="margin: 60px 0;">
 		<div class="grid-cell center">
-			<div>
-				<button class="btn" action="submit" type="submit">Հաստատել</button>
-			</div>
 			<div class="number">
-				<span><i class="fa fa-phone"></i>Մեր հեռախոսահամարը : +374 77 77 77</span>
+				<span style="margin-bottom: 25px;"><i class="fa fa-phone"></i>Մեր հեռախոսահամարը : +374 77 77 77</span>
 				<span><i class="fa fa-envelope"></i>Մեր էլ. հասցեն : support@mybanking.com</span>
 			</div>
 		</div>
