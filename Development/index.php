@@ -25,7 +25,6 @@ $page_description = "Description of this page";
                         <div><img src="resources/images/cardExchange.png" alt="img05" style="background-color: #afdeff;"></div>
                         <figcaption>
                             <h3>Վարկեր</h3>
-                            <span>բանկերի և վարկային</span>
                             <a href="http://dribbble.com/shots/1116775-Safari">Կարդալ ավելին</a>
                         </figcaption>
                     </figure>
@@ -35,7 +34,6 @@ $page_description = "Description of this page";
                         <div><img src="resources/images/card5.png" alt="img05" style="background-color: #8dffd0;"></div>
                         <figcaption>
                             <h3>Ավանդներ</h3>
-                            <span></span>
                             <a href="http://dribbble.com/shots/1116775-Safari">Կարդալ ավելին</a>
                         </figcaption>
                     </figure>
@@ -47,7 +45,6 @@ $page_description = "Description of this page";
                         <div><img src="resources/images/card6.png" alt="img05" style="background-color: #95f5c0;"></div>
                         <figcaption>
                             <h3>Քարտեր</h3>
-                            <span></span>
                             <a href="http://dribbble.com/shots/1116775-Safari">Կարդալ ավելին</a>
                         </figcaption>
                     </figure>
@@ -57,7 +54,6 @@ $page_description = "Description of this page";
                         <div><img src="resources/images/card8.png" alt="img05" style="background-color: #6fb6e8;"></div>
                         <figcaption>
                             <h3>Պահատուփեր</h3>
-                            <span></span>
                             <a href="http://dribbble.com/shots/1116775-Safari">Կարդալ ավելին</a>
                         </figcaption>
                     </figure>

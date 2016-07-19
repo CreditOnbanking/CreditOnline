@@ -529,6 +529,7 @@
 	color: #fff;
 	text-align: left;
 	margin-bottom: 10px;
+	text-align: center;
 }
 
 .cardSelf figcaption span {
@@ -593,9 +594,7 @@
 }
 
 .cs-style-3 figcaption a {
-	position: absolute;
-	bottom: 20px;
-	right: 20px;
+	text-align: center;
 }
 
 /* Menu close open icon */
