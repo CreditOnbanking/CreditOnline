@@ -52,26 +52,26 @@
                         </button>  
                     </div>
                     <ul class="cbp-hsmenu grid-cell center-nonText">
-                        <li><a href="index.php">Գլխավոր</a></li>
+                        <li><a href="index.php" class="menuLineHeight">Գլխավոր</a></li>
                         <li>
-                            <a href="#">Ծառայությորններ</a>
+                            <a href="services.php" class="menuLineHeight">Ծառայությորններ</a>
                             <ul class="cbp-hssubmenu">
                                 <li>
-                                    <a href="#"><i class="fa fa-car"></i><span>Վարկեր</span></a>
+                                    <a href="services.php#credits"><i class="fa fa-car"></i><span>Վարկեր</span></a>
                                 </li>
                                 <li>
-                                    <a href="#"><i class="fa fa-bar-chart"></i><span>Ավանդներ</span></a>
+                                    <a href="services.php#deposits"><i class="fa fa-bar-chart"></i><span>Ավանդներ</span></a>
                                 </li>
                                 <li>
-                                    <a href="#"><i class="fa fa-credit-card"></i><span>Քարտեր</span></a>
+                                    <a href="services.php#creditCards"><i class="fa fa-credit-card"></i><span>Քարտեր</span></a>
                                 </li>
                                 <li>
-                                    <a href="#"><i class="fa fa-archive"></i><span>Պահատուփեր</span></a>
+                                    <a href="services.php#lockers"><i class="fa fa-archive"></i><span>Պահատուփեր</span></a>
                                 </li>
                             </ul>
                         </li>
-                        <li><a href="about.php">Մեր Մասին</a></li>
-                        <li><a href="contact.php">Հետադարձ Կապ</a></li>
+                        <li><a href="about.php" class="menuLineHeight">Մեր Մասին</a></li>
+                        <li><a href="contact.php" class="menuLineHeight">Հետադարձ Կապ</a></li>
                     </ul>
                     <div class="registrationBox hidden-xs-nav grid-cell end">
                         <div class="grid">

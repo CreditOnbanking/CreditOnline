@@ -35,11 +35,13 @@
 	max-width: 69em;
 	margin: 0 auto;
 	padding: 0 1.875em;
+	height: 100%;
 }
 
 .cbp-hsmenu > li {
 	margin-left: 2em;
 	display: inline-block;
+	height: 100%
 }
 
 .cbp-hsmenu > li:first-child {
@@ -47,14 +49,19 @@
 }
 
 /* Main menu link style */
+.scrlHeight {
+	line-height: 57px !important;
+}
 .cbp-hsmenu > li > a {
 	color: #fff;
 	font-size: 1.2em;
-	line-height: 3em;
+	line-height: 103px;
 	display: inline-block;
 	position: relative;
 	z-index: 10000;
 	outline: none;
+	height: 100%;
+	transition: line-height 1s ease;
 }
 .no-touch .cbp-hsmenu > li > a:hover,
 .no-touch .cbp-hsmenu > li > a:focus,
@@ -126,6 +133,7 @@
 
 /* Submenu style */
 .cbp-hssubmenu {
+	background: #fff;
 	position: absolute;
 	left: 0;
 	top: 100%;
@@ -133,6 +141,7 @@
 	z-index: 0;
 	text-align: center; /* for aligning the sub items */
 	visibility: hidden;
+	transition: visibility .1s;
 }
 
 .cbp-hssubmenu:before, 

@@ -44,8 +44,19 @@
     <script type="text/javascript" src="resources/js/toucheffects.js"></script>
     <script type="text/javascript" src="resources/js/menu-collapse.js"></script>
     <script type="text/javascript" src="resources/js/menu-detectWidth-toggle.js"></script>
-    <script>
-        var menu = new cbpHorizontalSlideOutMenu(document.getElementById('cbp-hsmenu-wrapper'));
+    <script type="text/javascript">
+        $(function() {
+            $('a[href*=#]:not([href=#])').click(function() {
+                var target = $(this.hash);
+                target = target.length ? target : $('[name=' + this.hash.substr(1) +']');
+                if (target.length) {
+                    $('html,body').animate({
+                      scrollTop: target.offset().top - 57
+                    }, 1000);
+                    return false;
+                }
+            });
+        });
     </script>
 </body>
 
