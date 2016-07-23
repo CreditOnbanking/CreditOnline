@@ -55,7 +55,7 @@ if(isset($_POST['btn-signup']))
 					<div class='alert alert-success'>
 						<button class='close' data-dismiss='alert'>&times;</button>
 						<strong>Հաջողվեց Գրանցվել!</strong>  Մենք ուղարկելենք նամակ այս $email հասցեով.
-                    Մուտք գօրծեք էլ. հասցե և սեղմեք հղիչը. 
+                    Մուտք գօրծեք էլ. փոստ և սեղմեք հղիչը. 
 			  		</div>
 					";
 		}
