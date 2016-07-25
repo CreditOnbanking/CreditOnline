@@ -33,7 +33,7 @@
                     <div class="grid-cell logoSection visible-xs-nav" style="width: 100%;">
                         <div class="grid">
                             <div class="grid-cell">
-                                <h1 style="margin: 0; "><img class="webLogo" src="resources/images/logo.png" alt=""></h1>  
+                                <a href="index.php"><h1 style="margin: 0; "><img class="webLogo" src="resources/images/logo.png" alt=""></h1></a>  
                             </div>
                             <div class="grid-cell noflex registrationBox">
                                 <div class="grid">
@@ -44,7 +44,7 @@
                         </div>
                     </div>
                     <div class="logoSection grid-cell hidden-xs-nav">
-                       <a href="#"><h1 style="margin: 0; "><img class="webLogo" src="resources/images/logo.png" alt="" ></h1></a> 
+                       <a href="index.php"><h1 style="margin: 0; "><img class="webLogo" src="resources/images/logo.png" alt="" ></h1></a> 
                     </div>
                     <div class="visible-xs-nav collapseIcon-box">
                         <button class="c-hamburger c-hamburger--htx">

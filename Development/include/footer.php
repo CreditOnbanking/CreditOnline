@@ -1,6 +1,6 @@
 <footer class="footer">
         <div class="grid center" style="padding: 40px 20px;">
-            <div class="grid-cell center"><a href="#">
+            <div class="grid-cell center"><a href="index.php">
                 <img src="resources/images/logo-grey.png" width="50" height="50" alt=""></a>
             </div>
             <div class="grid-cell center">

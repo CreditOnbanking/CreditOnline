@@ -5,7 +5,9 @@ body h1, h2, h3, h4, h5, p, a, span {
 	margin: 0;
 	padding: 0;
 }
-
+a:focus {
+	text-decoration:none !important;
+}
 .section{height: 100%;overflow: hidden;min-height: 600px;}
 .section{height: 100%;overflow: hidden;min-height: 600px;}
 .grid { display: -webkit-box;display: -moz-box;display: -webkit-flex; display:-moz-flex; display:-o-flex; display:-ms-flexbox; display: flex; -webkit-flex-direction:row;-moz-flex-direction:row; -o-flex-direction:row; -ms-flex-direction:row; flex-direction: row; }
@@ -53,7 +55,7 @@ body h1, h2, h3, h4, h5, p, a, span {
 }
 .expand {
 	height: 57px !important;
-	background-color: rgba(36, 55, 70, 0.27);
+	background-color: rgba(36, 55, 70, 0.68);
 }
 .logoSection {
 	position: relative;
@@ -114,9 +116,8 @@ body h1, h2, h3, h4, h5, p, a, span {
 	
 	max-width: 564px;
 	padding: 60px 20px;
-	margin-left: 10px;
     background-color: rgba(0, 0, 0, 0.67);
-    margin-top: 110px;
+    margin-top: 35px;
 }
 .mainText h1 {
 	text-transform:uppercase;
@@ -125,8 +126,7 @@ body h1, h2, h3, h4, h5, p, a, span {
 }
 .mainText p {
 	padding:15px 0;
-	border-bottom: 4px solid #fff;
-	border-top: 4px solid #fff;
+	border-top: 1px solid #2e92b3;
 	font-size: 1.2em;
 
 }
@@ -270,6 +270,15 @@ body h1, h2, h3, h4, h5, p, a, span {
 		background-color: #243746;
 		transition: background-color .8s ease;
 	}
+	.cbp-hsmenu > li {
+		background-color: #243746;
+	}
+	.cbp-hsmenu > li:hover {
+		border-top: 1px solid rgba(255,255,255,0.5) !important;
+	}
+	.cbp-hsmenu > li:first-child:hover {
+		border-top: none !important;
+	}
 	.open-nav {
 		background-color: rgba(36, 55, 70, 0.64) !important;
 	}
@@ -281,7 +290,6 @@ body h1, h2, h3, h4, h5, p, a, span {
 	.cbp-hsmenu > li {
 		margin-left: 1em !important;
 	}
-	.hidden-xs-nav
 }
 
 
