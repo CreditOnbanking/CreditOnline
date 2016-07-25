@@ -44,7 +44,7 @@ if(isset($_POST['btn-signup']))
 						Սիրով MyBanking!<br/>
 						Որպեսզի ավարտեք գրանցումը, սեղմեք հղիչը <br/>
 						<br /><br />
-						<a href='http://localhost/x/verify.php?id=$id&code=$code'>MyBanking-ավարտել գրանցումը</a>
+						<a href='http://localhost:90/CreditOnline/Development/form/verify.php?id=$id&code=$code'>MyBanking-ավարտել գրանցումը</a>
 						<br /><br />
 						Շնորհակալություն,";
 						

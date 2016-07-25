@@ -118,10 +118,6 @@ class USER
 		$mail->Host       = "smtp.gmail.com";      
 		$mail->Port       = 465;             
 		$mail->AddAddress($email);
-		$mail->Username="your_gmail_id_here@gmail.com";  
-		$mail->Password="your_gmail_password_here";            
-		$mail->SetFrom('your_gmail_id_here@gmail.com','Coding Cage');
-		$mail->AddReplyTo("your_gmail_id_here@gmail.com","Coding Cage");
 		$mail->Subject    = $subject;
 		$mail->MsgHTML($message);
 		$mail->Send();
