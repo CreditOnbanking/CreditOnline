@@ -1,39 +1,30 @@
 <footer class="footer">
-        <div class="grid center" style="padding: 80px 20px;">
-            <div class="grid-cell center footCollumn">
-                <div class="grid column-orient">
-                    <div class="grid-cell center"><a href="#">Գլխավոր</a></div>
-                    <div class="grid-cell center"><a href="#">Ծառայությորններ</a></div>
-                    <div class="grid-cell center"><a href="#">Մեր Մասին</a></div>
-                    <div class="grid-cell center"><a href="#">Հետադարձ Կապ</a></div>
+        <div class="grid center" style="padding: 40px 20px;">
+            <div class="grid-cell center"><a href="#">
+                <img src="resources/images/logo-grey.png" width="50" height="50" alt=""></a>
+            </div>
+            <div class="grid-cell center">
+                <div class="grid column-orient footer-menu">
+                    <div class="grid-cell center footer-menu_item">
+                        <ul style="padding:0">
+                            <li><a href="index.php">Գլխավոր</a></li>
+                            <li><span>|</span></li>
+                            <li><a href="services.php">Ծառայությորններ</a></li>
+                            <li><span>|</span></li>
+                            <li><a href="about.php">Մեր Մասին</a></li>
+                            <li><span>|</span></li>
+                            <li><a href="contact.php">Հետադարձ Կապ</a></li>
+                        </ul>
+                    </div>
+                    <div class="grid-cell center footer-copyright">
+                        <p>Բոլոր իրավունքները պաշտպանված են Copyright © mybanking.am 2016</p>
+                    </div>
                 </div>
             </div>
-            <div class="grid-cell center footCollumn">
-                <div class="grid column-orient">
-                    <div class="grid-cell center"><a href="#">Գլխավոր</a></div>
-                    <div class="grid-cell center"><a href="#">Ծառայությորններ</a></div>
-                    <div class="grid-cell center"><a href="#">Մեր Մասին</a></div>
-                    <div class="grid-cell center"><a href="#">Հետադարձ Կապ</a></div>
-                </div>
+            <div class="grid-cell center footer-soc">
+                <a href="#"><i class="fa fa-facebook-official fa-2x"></i></a>
             </div>
-             <div class="grid-cell center footCollumn">
-                <div class="grid column-orient">
-                    <div class="grid-cell center"><a href="#">Գլխավոր</a></div>
-                    <div class="grid-cell center"><a href="#">Ծառայությորններ</a></div>
-                    <div class="grid-cell center"><a href="#">Մեր Մասին</a></div>
-                    <div class="grid-cell center"><a href="#">Հետադարձ Կապ</a></div>
-                </div>
-            </div>
-             <div class="grid-cell center footCollumn">
-                <div class="grid column-orient">
-                    <div class="grid-cell center"><a href="#">Գլխավոր</a></div>
-                    <div class="grid-cell center"><a href="#">Ծառայությորններ</a></div>
-                    <div class="grid-cell center"><a href="#">Մեր Մասին</a></div>
-                    <div class="grid-cell center"><a href="#">Հետադարձ Կապ</a></div>
-                </div>
-            </div>
-               
-            </div>
+        </div>
     </footer>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>

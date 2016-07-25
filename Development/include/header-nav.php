@@ -44,7 +44,7 @@
                         </div>
                     </div>
                     <div class="logoSection grid-cell hidden-xs-nav">
-                       <h1 style="margin: 0; "><img class="webLogo" src="resources/images/logo.png" alt="" ></h1> 
+                       <a href="#"><h1 style="margin: 0; "><img class="webLogo" src="resources/images/logo.png" alt="" ></h1></a> 
                     </div>
                     <div class="visible-xs-nav collapseIcon-box">
                         <button class="c-hamburger c-hamburger--htx">

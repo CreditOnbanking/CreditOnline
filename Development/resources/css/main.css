@@ -5,6 +5,7 @@ body h1, h2, h3, h4, h5, p, a, span {
 	margin: 0;
 	padding: 0;
 }
+
 .section{height: 100%;overflow: hidden;min-height: 600px;}
 .section{height: 100%;overflow: hidden;min-height: 600px;}
 .grid { display: -webkit-box;display: -moz-box;display: -webkit-flex; display:-moz-flex; display:-o-flex; display:-ms-flexbox; display: flex; -webkit-flex-direction:row;-moz-flex-direction:row; -o-flex-direction:row; -ms-flex-direction:row; flex-direction: row; }
@@ -169,21 +170,51 @@ body h1, h2, h3, h4, h5, p, a, span {
 .partnerBox span {
 	color: #243746;
 }
+/* ---------------section3 end ---------------*/
+
 /*----------------footer start ---------------*/
 .footer {
 	background-color:#243746;
 	width:100%;
 }
-/* ---------------section3 end ---------------*/
-
-.footCollumn {
-	
-
+.footer-menu_item {
+	padding-bottom:25px;
 }
-.footCollumn a {
-	display: block;
-
+.footer-menu_item ul li {
+	display:inline-block;
+	list-style:none;
 }
+.footer-menu_item ul li a {
+	font-size:13px;
+	transition: all .2s ease;
+}
+.footer-menu_item ul li a:hover {
+	color:#999;
+	transition: all .2s ease;
+}
+.footer-menu_item ul li a:focus {
+	color:#f0f0f0 !important;
+	outline:none;
+	text-decoration:none !important;
+}
+.footer-menu_item ul li>span {
+	color:#f0f0f0;
+	font-weight:700;
+	padding:0 10px;
+}
+.footer-copyright {
+	font-size: 12px;
+    letter-spacing: 1px;
+}
+.footer-soc i{
+	transition: all .2s ease;
+}
+.footer-soc i:hover {
+	color: #2e92b3;
+	transition: all .2s ease;
+}
+
+
 
 /* Smartphones (landscape) ----------- */
 @media only screen and (min-width : 824px) and (max-width : 5000px) {
