@@ -19,7 +19,7 @@ $page_description = "Description of this page";
     </section>
     <section id="section2" class="cartBox">
         <div class="container padd90">
-            <div class="grid">
+            <div class="grid cardBox-sv">
                 <div class="cardSelf grid-cell cs-style-3">
                     <figure>
                         <div><img src="resources/images/cardExchange.png" alt="img05" style="background-color: #afdeff;"></div>
@@ -39,7 +39,7 @@ $page_description = "Description of this page";
                     </figure>
                 </div>
             </div>
-            <div class="grid">
+            <div class="grid cardBox-sv">
                 <div class="cardSelf grid-cell cs-style-3">
                     <figure>
                         <div><img src="resources/images/card6.png" alt="img05" style="background-color: #95f5c0;"></div>

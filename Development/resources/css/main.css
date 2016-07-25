@@ -291,5 +291,13 @@ a:focus {
 		margin-left: 1em !important;
 	}
 }
-
+@media only screen and (max-width : 750px){
+	.cardBox-sv {
+		-webkit-box-orient: vertical;-moz-box-orient: vertical;-webkit-flex-direction:column;-moz-flex-direction:column; -o-flex-direction:column; -ms-flex-direction:column; flex-direction:column;
+		transition: all .8s ease;
+	}
+	.cardSelf {
+		padding:20px !important;
+	}
+}
 
