@@ -118,6 +118,10 @@ class USER
 		$mail->Host       = "smtp.gmail.com";      
 		$mail->Port       = 465;             
 		$mail->AddAddress($email);
+		$mail->Username="";  
+		$mail->Password="";            
+		$mail->SetFrom('','My Banking');
+		$mail->AddReplyTo("","My Banking");
 		$mail->Subject    = $subject;
 		$mail->MsgHTML($message);
 		$mail->Send();
