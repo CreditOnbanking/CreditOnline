@@ -51,7 +51,7 @@ a:focus {
 	z-index: 999999;
 }
 #section1 {
-	background: rgba(0, 0, 0, 0.39);
+	background: rgba(0,0,0,.0001);
 }
 .expand {
 	height: 57px !important;
@@ -155,20 +155,27 @@ a:focus {
 	inset 0px 11px 8px -10px #243746,
     inset 0px -11px 8px -10px #243746;
 }
+.partnerBox-main{
+	margin-top:100px;
+}
 .partnerBox {
-	background: rgba(255, 255, 255, 0.41);
+	background: rgba(255, 255, 255, 0.83);
     padding: 15px;
     border-radius: 5px;
-    min-height: 170px;
+    max-width:260px;
+    min-height: 150px;
+    margin:10px auto;
 }
 .partnerBox img {
-    max-width: 200px;
+    max-width: 100%;
     display: block;
     margin: 20px auto;
     margin-bottom: 20px;
 }
 .partnerBox span {
 	color: #243746;
+	display:block;
+	text-align:center;
 }
 /* ---------------section3 end ---------------*/
 
@@ -294,7 +301,6 @@ a:focus {
 @media only screen and (max-width : 750px){
 	.cardBox-sv {
 		-webkit-box-orient: vertical;-moz-box-orient: vertical;-webkit-flex-direction:column;-moz-flex-direction:column; -o-flex-direction:column; -ms-flex-direction:column; flex-direction:column;
-		transition: all .8s ease;
 	}
 	.cardSelf {
 		padding:20px !important;
